@@ -15,7 +15,7 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="ifElseSwitch.cpp">
+    <ClCompile Include="logicalOperatorsAndFlow.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
