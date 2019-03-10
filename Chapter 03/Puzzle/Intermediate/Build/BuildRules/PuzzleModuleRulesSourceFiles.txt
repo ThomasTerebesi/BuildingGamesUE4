@@ -1,3 +1,0 @@
-C:\Dev\Building Games with Unreal Engine 4\Chapter 03\Puzzle\Source\Puzzle\Puzzle.Build.cs
-C:\Dev\Building Games with Unreal Engine 4\Chapter 03\Puzzle\Source\Puzzle.Target.cs
-C:\Dev\Building Games with Unreal Engine 4\Chapter 03\Puzzle\Source\PuzzleEditor.Target.cs
