@@ -19,7 +19,11 @@
     </ProjectConfiguration>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="inheritance.cpp" />
+    <ClCompile Include="designPatterns.cpp" />
+    <ClCompile Include="King.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="King.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <VCProjectVersion>15.0</VCProjectVersion>
