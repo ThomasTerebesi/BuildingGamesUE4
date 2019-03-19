@@ -2,22 +2,13 @@
 
 int main()
 {
-	/*
-	std::cout << "Enter the size of the array: ";
-	
-	int size;
-	std::cin >> size;
-
-	int array[size];
-	*/
-
-
 	std::cout << "Enter the size of the array: ";
 
 	int size;
+
 	std::cin >> size;
 
-	int * array = new int[size];
+	int * array = (int*)malloc(size * sizeof(int));	// C-style
 
 	for (int i = 0; i < size; i++)
 	{
@@ -25,7 +16,7 @@ int main()
 		std::cout << array[i] << std::endl;
 	}
 
-	delete[] array;
+	free(array);									// C-style
 
 
 	std::cin.get();
