@@ -19,8 +19,8 @@ void EmptyLinkFunctionForGeneratedCodeGoldenEgg_init() {}
 			static const UE4CodeGen_Private::FPackageParams PackageParams = {
 				"/Script/GoldenEgg",
 				PKG_CompiledIn | 0x00000000,
-				0x510D88EE,
-				0x43340BDF,
+				0x808EA07A,
+				0x1175C0A9,
 				nullptr, 0,
 				METADATA_PARAMS(nullptr, 0)
 			};

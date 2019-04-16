@@ -3,7 +3,7 @@
   <ItemGroup>
     <None Include="..\..\GoldenEgg.uproject" />
     <Filter Include="Source">
-      <UniqueIdentifier>{1AE7E4B3-2046-476C-A81B-4AAAC7CCBB7E}</UniqueIdentifier>
+      <UniqueIdentifier>{6A34B927-57C1-4EF1-977A-A8CD14C98864}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Source\GoldenEgg.Target.cs">
       <Filter>Source</Filter>
@@ -12,7 +12,7 @@
       <Filter>Source</Filter>
     </None>
     <Filter Include="Config">
-      <UniqueIdentifier>{CCE51A29-A25B-4746-BE8F-A44338E3D5AF}</UniqueIdentifier>
+      <UniqueIdentifier>{8B8B51FE-1962-4DA3-BF55-4260BFA2B06C}</UniqueIdentifier>
     </Filter>
     <None Include="..\..\Config\DefaultEditor.ini">
       <Filter>Config</Filter>
@@ -23,9 +23,24 @@
     <None Include="..\..\Config\DefaultGame.ini">
       <Filter>Config</Filter>
     </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
     <Filter Include="Source\GoldenEgg">
-      <UniqueIdentifier>{255204B9-18AB-4A64-AA5A-71B5994B11D9}</UniqueIdentifier>
+      <UniqueIdentifier>{71FFD20D-0811-471E-B966-931B986D1A0D}</UniqueIdentifier>
     </Filter>
+    <ClCompile Include="..\..\Source\GoldenEgg\Avatar.cpp">
+      <Filter>Source\GoldenEgg</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GoldenEgg\Avatar.h">
+      <Filter>Source\GoldenEgg</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\GoldenEgg\GameModeGoldenEgg.cpp">
+      <Filter>Source\GoldenEgg</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GoldenEgg\GameModeGoldenEgg.h">
+      <Filter>Source\GoldenEgg</Filter>
+    </ClInclude>
     <None Include="..\..\Source\GoldenEgg\GoldenEgg.Build.cs">
       <Filter>Source\GoldenEgg</Filter>
     </None>
@@ -41,14 +56,20 @@
     <ClInclude Include="..\..\Source\GoldenEgg\GoldenEggGameModeBase.h">
       <Filter>Source\GoldenEgg</Filter>
     </ClInclude>
-  </ItemGroup>
-  <ItemGroup>
-    <ClInclude Include="..\..\Source\GoldenEgg\Avatar.h">
+    <ClCompile Include="..\..\Source\GoldenEgg\NPC.cpp">
+      <Filter>Source\GoldenEgg</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\GoldenEgg\NPC.h">
       <Filter>Source\GoldenEgg</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\Source\GoldenEgg\Avatar.cpp">
+    <ClInclude Include="..\..\Source\GoldenEgg\MyHUD.h">
+      <Filter>Source\GoldenEgg</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\GoldenEgg\MyHUD.cpp">
       <Filter>Source\GoldenEgg</Filter>
     </ClCompile>
   </ItemGroup>

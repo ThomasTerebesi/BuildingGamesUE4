@@ -1,0 +1,23 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-GoldenEgg-6271.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\GoldenEggEditor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\Avatar.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\GameModeGoldenEgg.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\GoldenEgg.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\GoldenEggGameModeBase.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\MyHUD.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\NPC.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\Avatar.gen.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\GameModeGoldenEgg.gen.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\GoldenEgg.init.gen.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\GoldenEggGameModeBase.gen.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\MyHUD.gen.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\NPC.gen.cpp.obj"
+"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\PCLaunch.rc.res"
+/OUT:"C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-6271.lib"
