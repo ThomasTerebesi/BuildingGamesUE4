@@ -34,4 +34,7 @@ public:
 
 	void Yaw(float amount);
 	void Pitch(float amount);
+
+	float Hp;
+	float MaxHp;
 };

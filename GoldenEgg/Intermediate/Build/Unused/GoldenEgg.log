@@ -1,12 +1,4 @@
-﻿  Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
-  Creating makefile for hot reloading GoldenEggEditor (source directory changed)
-  Compiling game modules for hot reload
-  Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
-  Building 3 actions with 4 processes...
-    [1/3] MyHUD.cpp
-    [2/3] UE4Editor-GoldenEgg-8479.lib
-       Creating library C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-8479.lib and object C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-8479.exp
-    [3/3] UE4Editor-GoldenEgg-8479.dll
-       Creating library C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-8479.suppressed.lib and object C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-8479.suppressed.exp
-  Deploying GoldenEggEditor Win64 Development...
-  Total build time: 5,56 seconds (Parallel executor: 1,73 seconds)
+﻿  Cleaning GoldenEggEditor Binaries...
+UnrealBuildTool : error : Unable to clean target while hot-reloading. Close the editor and try again.
+                          (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+C:\Program Files (x86)\Microsoft Visual Studio\2017\Community\Common7\IDE\VC\VCTargets\Microsoft.MakeFile.Targets(39,5): error MSB3073: The command ""C:\Program Files\Epic Games\UE_4.21\Engine\Build\BatchFiles\Clean.bat" GoldenEggEditor Win64 Development "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\GoldenEgg.uproject" -WaitMutex -FromMsBuild" exited with code -1.

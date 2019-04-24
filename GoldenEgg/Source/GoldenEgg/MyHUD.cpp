@@ -10,6 +10,7 @@ void AMyHUD::DrawHUD()
 	sizeX = Canvas->SizeX;
 	
 	DrawMessages();
+	DrawHealthBar();
 }
 
 void AMyHUD::DrawMessages()
@@ -28,8 +29,13 @@ void AMyHUD::DrawMessages()
 		// Black background.
 		DrawRect(FLinearColor::Black, x, y, sizeX, messageH);
 
+		// Draw texture
+		DrawTexture(messages[c].tex, x, y, messageH, messageH, 0, 0, 1, 1);
+
 		// Draw our message using the 'hudFont'.
-		DrawText(messages[c].message, messages[c].color, x + pad, y + pad, hudFont);
+		DrawText(messages[c].message, messages[c].color, x + pad + messageH, y + pad, hudFont);
+
+		
 
 		// Reduce lifetime by the time that passed since last frame.
 		messages[c].time -= GetWorld()->GetDeltaSeconds();
@@ -47,11 +53,33 @@ void AMyHUD::AddMessage(Message msg)
 	messages.Add(msg);
 }
 
+void AMyHUD::DrawHealthBar()
+{
+	AAvatar* avatar = Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+	
+	float barWidth = 200.0f, barHeight = 50.0f, barPad = 12, barMargin = 50;
+	float percHp = avatar->Hp / avatar->MaxHp;
+
+	const FVector2D ViewportSize = FVector2D(GEngine->GameViewport->Viewport->GetSizeXY());
+
+	DrawRect(FLinearColor(0, 0, 0, 1),
+		ViewportSize.X - barWidth - barPad - barMargin,
+		ViewportSize.Y - barHeight - barPad - barMargin,
+		barWidth + 2 * barPad,
+		barHeight + 2 * barPad);
+
+	DrawRect(FLinearColor(1.0f - percHp, percHp, 0.0f, 1.0f),
+		ViewportSize.X - barWidth - barMargin,
+		ViewportSize.Y - barHeight - barMargin,
+		barWidth * percHp,
+		barHeight);
+}
+
 void AMyHUD::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Message testMsg("Printing to the HUD...", 12.0f, FColor::White);
+	Message testMsg("Printing to the HUD...", 4.0f, FColor::White, nullptr);
 	AddMessage(testMsg);
 }
 

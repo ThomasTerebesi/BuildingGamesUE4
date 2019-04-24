@@ -1,20 +1,43 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "NPC.h"
+#include "Avatar.h"
+#include "MyHUD.h"
+
+int ANPC::Prox_Implementation(UPrimitiveComponent * OverlappedComponent, AActor * OtherActor, UPrimitiveComponent * OtherComp, int32 OtherBodyIndex, bool bFromSweep, const FHitResult & SweepResult)
+{
+	// If the overlapped actor is not the player, you should just simply return from the function.
+	if (Cast<AAvatar>(OtherActor) == nullptr)
+		return -1;
+
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+
+	if (PController)
+	{
+		AMyHUD* hud = Cast<AMyHUD>(PController->GetHUD());
+		hud->AddMessage(Message(NpcName + static_cast<FString>(": ") + NpcMessage, 5.0f, FColor::White, NpcFace));
+	}
+
+	return 0;
+}
 
 // Sets default values
-ANPC::ANPC()
+ANPC::ANPC(const FObjectInitializer& ObjectInitializer)
+	: Super(ObjectInitializer)
 {
- 	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
-	PrimaryActorTick.bCanEverTick = true;
+	ProxSphere = ObjectInitializer.CreateDefaultSubobject<USphereComponent>(this, TEXT("Proximity Sphere"));
+	ProxSphere->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);
+	ProxSphere->SetSphereRadius(32.0f);
 
+	// Code to make ANPC::Prox() run when this proximity sphere overlaps another actor.
+	ProxSphere->OnComponentBeginOverlap.AddDynamic(this, &ANPC::Prox);
+	NpcMessage = "Hi, I'm an NPC!"; // Default, can be edited in the respective blueprint.
 }
 
 // Called when the game starts or when spawned
 void ANPC::BeginPlay()
 {
 	Super::BeginPlay();
-	
 }
 
 // Called every frame

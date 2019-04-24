@@ -6,6 +6,8 @@
 #include "GameFramework/HUD.h"
 #include "Engine/Canvas.h"
 #include "Engine/Font.h"
+#include "Kismet/GameplayStatics.h"
+#include "Avatar.h"
 #include "MyHUD.generated.h"
 
 
@@ -14,18 +16,21 @@ struct Message
 	FString message;
 	float time;
 	FColor color;
+	UTexture2D* tex;
 	
 	Message()
 	{
 		time = 5.0f;
 		color = FColor::White;
+		tex = nullptr;
 	}
 
-	Message(FString iMessage, float iTime, FColor iColor)
+	Message(FString iMessage, float iTime, FColor iColor, UTexture2D* iTexture)
 	{
 		message = iMessage;
 		time = iTime;
 		color = iColor;
+		tex = iTexture;
 	}
 };
 
@@ -47,6 +52,7 @@ public:
 	virtual void DrawHUD() override;
 	void DrawMessages();
 	void AddMessage(Message msg);
+	void DrawHealthBar();
 
 protected:
 	virtual void BeginPlay() override;

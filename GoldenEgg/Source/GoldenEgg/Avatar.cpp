@@ -4,6 +4,7 @@
 
 // Sets default values
 AAvatar::AAvatar()
+	: Hp(24.0f), MaxHp(100.0f)
 {
  	// Set this character to call Tick() every frame.  You can turn this off to improve performance if you don't need it.
 	PrimaryActorTick.bCanEverTick = true;
@@ -14,7 +15,7 @@ AAvatar::AAvatar()
 void AAvatar::BeginPlay()
 {
 	Super::BeginPlay();
-	
+
 }
 
 // Called every frame
