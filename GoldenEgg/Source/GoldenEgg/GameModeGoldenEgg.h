@@ -4,6 +4,7 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/GameModeBase.h"
+#include "Engine/Engine.h"
 #include "GameModeGoldenEgg.generated.h"
 
 /**
@@ -13,5 +14,8 @@ UCLASS()
 class GOLDENEGG_API AGameModeGoldenEgg : public AGameModeBase
 {
 	GENERATED_BODY()
+
+public:
+	AGameModeGoldenEgg();
 	
 };

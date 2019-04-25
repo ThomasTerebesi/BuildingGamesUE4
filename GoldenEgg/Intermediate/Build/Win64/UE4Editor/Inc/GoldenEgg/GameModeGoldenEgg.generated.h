@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GOLDENEGG_GameModeGoldenEgg_generated_h
 
-#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_RPC_WRAPPERS
-#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_RPC_WRAPPERS_NO_PURE_DECLS
-#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_INCLASS_NO_PURE_DECLS \
+#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_RPC_WRAPPERS
+#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_RPC_WRAPPERS_NO_PURE_DECLS
+#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAGameModeGoldenEgg(); \
 	friend struct Z_Construct_UClass_AGameModeGoldenEgg_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AGameModeGoldenEgg)
 
 
-#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_INCLASS \
+#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_INCLASS \
 private: \
 	static void StaticRegisterNativesAGameModeGoldenEgg(); \
 	friend struct Z_Construct_UClass_AGameModeGoldenEgg_Statics; \
@@ -33,9 +33,9 @@ public: \
 	DECLARE_SERIALIZER(AGameModeGoldenEgg)
 
 
-#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_STANDARD_CONSTRUCTORS \
+#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AGameModeGoldenEgg(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
+	NO_API AGameModeGoldenEgg(const FObjectInitializer& ObjectInitializer); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGameModeGoldenEgg) \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AGameModeGoldenEgg); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGameModeGoldenEgg); \
@@ -46,9 +46,7 @@ private: \
 public:
 
 
-#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_ENHANCED_CONSTRUCTORS \
-	/** Standard constructor, called after all reflected properties have been initialized */ \
-	NO_API AGameModeGoldenEgg(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
+#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 	/** Private move- and copy-constructors, should never be used */ \
 	NO_API AGameModeGoldenEgg(AGameModeGoldenEgg&&); \
@@ -56,29 +54,29 @@ private: \
 public: \
 	DECLARE_VTABLE_PTR_HELPER_CTOR(NO_API, AGameModeGoldenEgg); \
 DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AGameModeGoldenEgg); \
-	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AGameModeGoldenEgg)
+	DEFINE_DEFAULT_CONSTRUCTOR_CALL(AGameModeGoldenEgg)
 
 
-#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_PRIVATE_PROPERTY_OFFSET
-#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_12_PROLOG
-#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_GENERATED_BODY_LEGACY \
+#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_PRIVATE_PROPERTY_OFFSET
+#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_13_PROLOG
+#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_PRIVATE_PROPERTY_OFFSET \
-	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_RPC_WRAPPERS \
-	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_INCLASS \
-	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_STANDARD_CONSTRUCTORS \
+	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_PRIVATE_PROPERTY_OFFSET \
+	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_RPC_WRAPPERS \
+	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_INCLASS \
+	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_GENERATED_BODY \
+#define GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_PRIVATE_PROPERTY_OFFSET \
-	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_RPC_WRAPPERS_NO_PURE_DECLS \
-	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_INCLASS_NO_PURE_DECLS \
-	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_15_ENHANCED_CONSTRUCTORS \
+	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_PRIVATE_PROPERTY_OFFSET \
+	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_RPC_WRAPPERS_NO_PURE_DECLS \
+	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_INCLASS_NO_PURE_DECLS \
+	GoldenEgg_Source_GoldenEgg_GameModeGoldenEgg_h_16_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
