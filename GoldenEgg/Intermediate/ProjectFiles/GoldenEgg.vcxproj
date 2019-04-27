@@ -644,6 +644,8 @@
     <NMakeOutput>..\..\Binaries\HTML5\GoldenEgg-HTML5-Shipping.js</NMakeOutput>
   </PropertyGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\GoldenEgg\PickupItem.cpp" />
+    <ClInclude Include="..\..\Source\GoldenEgg\PickupItem.h" />
     <None Include="..\..\GoldenEgg.uproject" />
     <None Include="..\..\Source\GoldenEgg.Target.cs" />
     <None Include="..\..\Source\GoldenEggEditor.Target.cs" />

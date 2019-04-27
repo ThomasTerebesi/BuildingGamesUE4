@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Avatar.h"
+#include "PickupItem.h"
 
 // Sets default values
 AAvatar::AAvatar()
@@ -40,6 +41,8 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 	PlayerInputComponent->BindAxis("Yaw", this, &AAvatar::Yaw);
 	PlayerInputComponent->BindAxis("Pitch", this, &AAvatar::Pitch);
+
+	PlayerInputComponent->BindAction("Inventory", IE_Pressed, this, &AAvatar::ToggleInventory);
 }
 
 void AAvatar::MoveForward(float amount)
@@ -86,5 +89,26 @@ void AAvatar::Yaw(float amount)
 void AAvatar::Pitch(float amount)
 {
 	AddControllerPitchInput(-200.0f * amount * GetWorld()->GetDeltaSeconds());
+}
+
+void AAvatar::PickUp(APickupItem * item)
+{
+	if (backpack.Find(item->name))
+	{
+		backpack[item->name] += item->quantity;
+	}
+	else
+	{
+		backpack.Add(item->name, item->quantity);
+		icons.Add(item->name, item->icon);
+	}
+}
+
+void AAvatar::ToggleInventory()
+{
+	if (GEngine)
+	{
+		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, "Showing Inventory...");
+	}
 }
 

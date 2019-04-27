@@ -4,7 +4,12 @@
 
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
+#include "Engine/Engine.h"
 #include "Avatar.generated.h"
+
+
+class APickupItem;
+
 
 UCLASS()
 class GOLDENEGG_API AAvatar : public ACharacter
@@ -37,4 +42,13 @@ public:
 
 	float Hp;
 	float MaxHp;
+
+	TMap<FString, int> backpack;
+	TMap<FString, UTexture2D*> icons;
+
+	bool inventoryShowing;
+
+	void PickUp(APickupItem* item);
+
+	void ToggleInventory();
 };
