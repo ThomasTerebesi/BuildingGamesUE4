@@ -13,9 +13,9 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 #endif
 #define GOLDENEGG_MyHUD_generated_h
 
-#define GoldenEgg_Source_GoldenEgg_MyHUD_h_44_RPC_WRAPPERS
-#define GoldenEgg_Source_GoldenEgg_MyHUD_h_44_RPC_WRAPPERS_NO_PURE_DECLS
-#define GoldenEgg_Source_GoldenEgg_MyHUD_h_44_INCLASS_NO_PURE_DECLS \
+#define GoldenEgg_Source_GoldenEgg_MyHUD_h_84_RPC_WRAPPERS
+#define GoldenEgg_Source_GoldenEgg_MyHUD_h_84_RPC_WRAPPERS_NO_PURE_DECLS
+#define GoldenEgg_Source_GoldenEgg_MyHUD_h_84_INCLASS_NO_PURE_DECLS \
 private: \
 	static void StaticRegisterNativesAMyHUD(); \
 	friend struct Z_Construct_UClass_AMyHUD_Statics; \
@@ -24,7 +24,7 @@ public: \
 	DECLARE_SERIALIZER(AMyHUD)
 
 
-#define GoldenEgg_Source_GoldenEgg_MyHUD_h_44_INCLASS \
+#define GoldenEgg_Source_GoldenEgg_MyHUD_h_84_INCLASS \
 private: \
 	static void StaticRegisterNativesAMyHUD(); \
 	friend struct Z_Construct_UClass_AMyHUD_Statics; \
@@ -33,7 +33,7 @@ public: \
 	DECLARE_SERIALIZER(AMyHUD)
 
 
-#define GoldenEgg_Source_GoldenEgg_MyHUD_h_44_STANDARD_CONSTRUCTORS \
+#define GoldenEgg_Source_GoldenEgg_MyHUD_h_84_STANDARD_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyHUD) \
@@ -46,7 +46,7 @@ private: \
 public:
 
 
-#define GoldenEgg_Source_GoldenEgg_MyHUD_h_44_ENHANCED_CONSTRUCTORS \
+#define GoldenEgg_Source_GoldenEgg_MyHUD_h_84_ENHANCED_CONSTRUCTORS \
 	/** Standard constructor, called after all reflected properties have been initialized */ \
 	NO_API AMyHUD(const FObjectInitializer& ObjectInitializer = FObjectInitializer::Get()) : Super(ObjectInitializer) { }; \
 private: \
@@ -59,26 +59,26 @@ DEFINE_VTABLE_PTR_HELPER_CTOR_CALLER(AMyHUD); \
 	DEFINE_DEFAULT_OBJECT_INITIALIZER_CONSTRUCTOR_CALL(AMyHUD)
 
 
-#define GoldenEgg_Source_GoldenEgg_MyHUD_h_44_PRIVATE_PROPERTY_OFFSET
-#define GoldenEgg_Source_GoldenEgg_MyHUD_h_41_PROLOG
-#define GoldenEgg_Source_GoldenEgg_MyHUD_h_44_GENERATED_BODY_LEGACY \
+#define GoldenEgg_Source_GoldenEgg_MyHUD_h_84_PRIVATE_PROPERTY_OFFSET
+#define GoldenEgg_Source_GoldenEgg_MyHUD_h_81_PROLOG
+#define GoldenEgg_Source_GoldenEgg_MyHUD_h_84_GENERATED_BODY_LEGACY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GoldenEgg_Source_GoldenEgg_MyHUD_h_44_PRIVATE_PROPERTY_OFFSET \
-	GoldenEgg_Source_GoldenEgg_MyHUD_h_44_RPC_WRAPPERS \
-	GoldenEgg_Source_GoldenEgg_MyHUD_h_44_INCLASS \
-	GoldenEgg_Source_GoldenEgg_MyHUD_h_44_STANDARD_CONSTRUCTORS \
+	GoldenEgg_Source_GoldenEgg_MyHUD_h_84_PRIVATE_PROPERTY_OFFSET \
+	GoldenEgg_Source_GoldenEgg_MyHUD_h_84_RPC_WRAPPERS \
+	GoldenEgg_Source_GoldenEgg_MyHUD_h_84_INCLASS \
+	GoldenEgg_Source_GoldenEgg_MyHUD_h_84_STANDARD_CONSTRUCTORS \
 public: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 
 
-#define GoldenEgg_Source_GoldenEgg_MyHUD_h_44_GENERATED_BODY \
+#define GoldenEgg_Source_GoldenEgg_MyHUD_h_84_GENERATED_BODY \
 PRAGMA_DISABLE_DEPRECATION_WARNINGS \
 public: \
-	GoldenEgg_Source_GoldenEgg_MyHUD_h_44_PRIVATE_PROPERTY_OFFSET \
-	GoldenEgg_Source_GoldenEgg_MyHUD_h_44_RPC_WRAPPERS_NO_PURE_DECLS \
-	GoldenEgg_Source_GoldenEgg_MyHUD_h_44_INCLASS_NO_PURE_DECLS \
-	GoldenEgg_Source_GoldenEgg_MyHUD_h_44_ENHANCED_CONSTRUCTORS \
+	GoldenEgg_Source_GoldenEgg_MyHUD_h_84_PRIVATE_PROPERTY_OFFSET \
+	GoldenEgg_Source_GoldenEgg_MyHUD_h_84_RPC_WRAPPERS_NO_PURE_DECLS \
+	GoldenEgg_Source_GoldenEgg_MyHUD_h_84_INCLASS_NO_PURE_DECLS \
+	GoldenEgg_Source_GoldenEgg_MyHUD_h_84_ENHANCED_CONSTRUCTORS \
 private: \
 PRAGMA_ENABLE_DEPRECATION_WARNINGS
 

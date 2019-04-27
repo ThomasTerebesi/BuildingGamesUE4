@@ -9,8 +9,13 @@ void AMyHUD::DrawHUD()
 
 	sizeX = Canvas->SizeX;
 	
+	const FVector2D viewportSize = FVector2D(GEngine->GameViewport->Viewport->GetSizeXY());
+	dimensions.X = viewportSize.X;
+	dimensions.Y = viewportSize.Y;
+
 	DrawMessages();
-	DrawHealthBar();
+	DrawWidgets();
+	// DrawHealthBar();
 }
 
 void AMyHUD::DrawMessages()
@@ -73,6 +78,61 @@ void AMyHUD::DrawHealthBar()
 		ViewportSize.Y - barHeight - barMargin,
 		barWidth * percHp,
 		barHeight);
+}
+
+void AMyHUD::DrawWidgets()
+{
+	for (Widget widget : widgets)
+	{
+		DrawTexture
+		(
+			widget.icon.tex,
+			widget.pos.X,
+			widget.pos.Y,
+			widget.size.X,
+			widget.size.Y,
+			0,
+			0,
+			1,
+			1
+		);
+
+		DrawText
+		(
+			widget.icon.name,
+			FLinearColor::Yellow,
+			widget.pos.X,
+			widget.pos.Y,
+			hudFont,
+			0.6f,
+			false
+		);
+	}
+}
+
+void AMyHUD::ClearWidgets()
+{
+	widgets.Empty();
+}
+
+void AMyHUD::AddWidget(Widget widget)
+{
+	FVector2D start(200, 200), pad(12, 12);
+	widget.size = FVector2D(100, 100);
+	widget.pos = start;
+
+	for (int c = 0; c < widgets.Num(); c++)
+	{
+		widget.pos.X += widget.size.X + pad.X;
+
+		if (widget.pos.X + widget.size.X > dimensions.X)
+		{
+			widget.pos.X = start.X;
+			widget.pos.Y += widget.size.Y + pad.Y;
+		}
+	}
+
+	widgets.Add(widget);
 }
 
 void AMyHUD::BeginPlay()

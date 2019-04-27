@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "Avatar.h"
+#include "MyHUD.h"
 #include "PickupItem.h"
 
 // Sets default values
@@ -47,48 +48,54 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 
 void AAvatar::MoveForward(float amount)
 {
-	if (Controller && amount)
-	{
-		FVector forward = GetActorForwardVector();
-		AddMovementInput(forward, amount);
-	}
+	if (!inventoryShowing)
+		if (Controller && amount)
+		{
+			FVector forward = GetActorForwardVector();
+			AddMovementInput(forward, amount);
+		}
 }
 
 void AAvatar::MoveBackward(float amount)
 {
-	if (Controller && amount)
-	{
-		FVector backward = GetActorForwardVector();
-		AddMovementInput(backward, amount);
-	}
+	if (!inventoryShowing)
+		if (Controller && amount)
+		{
+			FVector backward = GetActorForwardVector();
+			AddMovementInput(backward, amount);
+		}
 }
 
 void AAvatar::MoveRight(float amount)
 {
-	if (Controller && amount)
-	{
-		FVector right = GetActorRightVector();
-		AddMovementInput(right, amount);
-	}
+	if (!inventoryShowing)
+		if (Controller && amount)
+		{
+			FVector right = GetActorRightVector();
+			AddMovementInput(right, amount);
+		}
 }
 
 void AAvatar::MoveLeft(float amount)
 {
-	if (Controller && amount)
-	{
-		FVector left = GetActorRightVector();
-		AddMovementInput(left, amount);
-	}
+	if (!inventoryShowing)
+		if (Controller && amount)
+		{
+			FVector left = GetActorRightVector();
+			AddMovementInput(left, amount);
+		}
 }
 
 void AAvatar::Yaw(float amount)
 {
-	AddControllerYawInput(200.0f * amount * GetWorld()->GetDeltaSeconds());
+	if (!inventoryShowing)
+		AddControllerYawInput(200.0f * amount * GetWorld()->GetDeltaSeconds());
 }
 
 void AAvatar::Pitch(float amount)
 {
-	AddControllerPitchInput(-200.0f * amount * GetWorld()->GetDeltaSeconds());
+	if (!inventoryShowing)
+		AddControllerPitchInput(-200.0f * amount * GetWorld()->GetDeltaSeconds());
 }
 
 void AAvatar::PickUp(APickupItem * item)
@@ -106,9 +113,30 @@ void AAvatar::PickUp(APickupItem * item)
 
 void AAvatar::ToggleInventory()
 {
-	if (GEngine)
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+	AMyHUD* hud = Cast<AMyHUD>(PController->GetHUD());
+
+	if (inventoryShowing)
 	{
-		GEngine->AddOnScreenDebugMessage(-1, 5.0f, FColor::Red, "Showing Inventory...");
+		hud->ClearWidgets();
+		inventoryShowing = false;
+		PController->bShowMouseCursor = false;
+		return;
+	}
+
+	inventoryShowing = true;
+	PController->bShowMouseCursor = true;
+
+	for (TMap<FString, int32>::TIterator iter = backpack.CreateIterator(); iter; ++iter)
+	{
+		FString fs = iter->Key + FString::Printf(TEXT(" x %d"), iter->Value);
+		UTexture2D* tex;
+
+		if (icons.Find(iter->Key))
+		{
+			tex = icons[iter->Key];
+			hud->AddWidget(Widget(Icon(fs, tex)));
+		}
 	}
 }
 

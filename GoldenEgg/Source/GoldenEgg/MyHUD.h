@@ -17,7 +17,7 @@ struct Message
 	float time;
 	FColor color;
 	UTexture2D* tex;
-	
+
 	Message()
 	{
 		time = 5.0f;
@@ -31,6 +31,46 @@ struct Message
 		time = iTime;
 		color = iColor;
 		tex = iTexture;
+	}
+};
+
+
+struct Icon
+{
+	FString name;
+	UTexture2D* tex;
+
+	Icon()
+	{
+		name = "UNKNOWN ICON"; tex = nullptr;
+	}
+
+	Icon(FString& iName, UTexture2D* iTex)
+	{
+		name = iName;
+		tex = iTex;
+	}
+};
+
+
+struct Widget
+{
+	Icon icon;
+	FVector2D pos, size;
+
+	Widget(Icon iIcon)
+	{
+		icon = iIcon;
+	}
+
+	float left() { return pos.X; }
+	float right() { return pos.X + size.X; }
+	float top() { return pos.Y; }
+	float bottom() { return pos.Y + size.Y; }
+
+	bool hit(FVector2D p)
+	{
+		return p.X > left() && p.X < right() && p.Y > top() && p.Y < bottom();
 	}
 };
 
@@ -49,10 +89,18 @@ public:
 
 	TArray<Message> messages;
 
+	TArray<Widget> widgets;
+
+	FVector2D dimensions;
+
 	virtual void DrawHUD() override;
 	void DrawMessages();
 	void AddMessage(Message msg);
 	void DrawHealthBar();
+	void DrawWidgets();
+
+	void ClearWidgets();
+	void AddWidget(Widget widget);
 
 protected:
 	virtual void BeginPlay() override;
