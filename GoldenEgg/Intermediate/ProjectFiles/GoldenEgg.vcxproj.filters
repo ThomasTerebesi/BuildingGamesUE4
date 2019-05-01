@@ -70,12 +70,18 @@
     <ClInclude Include="..\..\Source\GoldenEgg\PickupItem.h">
       <Filter>Source\GoldenEgg</Filter>
     </ClInclude>
+    <ClInclude Include="..\..\Source\GoldenEgg\Monster.h">
+      <Filter>Source\GoldenEgg</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\Source\GoldenEgg\MyHUD.cpp">
       <Filter>Source\GoldenEgg</Filter>
     </ClCompile>
     <ClCompile Include="..\..\Source\GoldenEgg\PickupItem.cpp">
+      <Filter>Source\GoldenEgg</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\GoldenEgg\Monster.cpp">
       <Filter>Source\GoldenEgg</Filter>
     </ClCompile>
   </ItemGroup>
