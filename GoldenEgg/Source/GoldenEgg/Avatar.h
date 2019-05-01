@@ -51,4 +51,6 @@ public:
 	void PickUp(APickupItem* item);
 
 	void ToggleInventory();
+
+	void MouseClicked();
 };

@@ -44,6 +44,8 @@ void AAvatar::SetupPlayerInputComponent(UInputComponent* PlayerInputComponent)
 	PlayerInputComponent->BindAxis("Pitch", this, &AAvatar::Pitch);
 
 	PlayerInputComponent->BindAction("Inventory", IE_Pressed, this, &AAvatar::ToggleInventory);
+
+	PlayerInputComponent->BindAction("MouseClickedLMB", IE_Pressed, this, &AAvatar::MouseClicked);
 }
 
 void AAvatar::MoveForward(float amount)
@@ -88,14 +90,33 @@ void AAvatar::MoveLeft(float amount)
 
 void AAvatar::Yaw(float amount)
 {
-	if (!inventoryShowing)
+	if (inventoryShowing)
+	{
+		APlayerController* PController = GetWorld()->GetFirstPlayerController();
+		AMyHUD* hud = Cast<AMyHUD>(PController->GetHUD());
+		hud->MouseMoved();
+		return;
+	}
+	else
+	{
 		AddControllerYawInput(200.0f * amount * GetWorld()->GetDeltaSeconds());
+	}
+
 }
 
 void AAvatar::Pitch(float amount)
 {
-	if (!inventoryShowing)
+	if (inventoryShowing)
+	{
+		APlayerController* PController = GetWorld()->GetFirstPlayerController();
+		AMyHUD* hud = Cast<AMyHUD>(PController->GetHUD());
+		hud->MouseMoved();
+		return;
+	}
+	else
+	{
 		AddControllerPitchInput(-200.0f * amount * GetWorld()->GetDeltaSeconds());
+	}
 }
 
 void AAvatar::PickUp(APickupItem * item)
@@ -138,5 +159,13 @@ void AAvatar::ToggleInventory()
 			hud->AddWidget(Widget(Icon(fs, tex)));
 		}
 	}
+}
+
+void AAvatar::MouseClicked()
+{
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+	AMyHUD* hud = Cast<AMyHUD>(PController->GetHUD());
+
+	hud->MouseClicked();
 }
 

@@ -16,6 +16,11 @@ int ANPC::Prox_Implementation(UPrimitiveComponent * OverlappedComponent, AActor 
 	{
 		AMyHUD* hud = Cast<AMyHUD>(PController->GetHUD());
 		hud->AddMessage(Message(NpcName + static_cast<FString>(": ") + NpcMessage, 5.0f, FColor::White, NpcFace));
+
+		if (HasItem)
+		{
+			Cast<AAvatar>(OtherActor)->PickUp(Item);
+		}
 	}
 
 	return 0;
@@ -23,7 +28,7 @@ int ANPC::Prox_Implementation(UPrimitiveComponent * OverlappedComponent, AActor 
 
 // Sets default values
 ANPC::ANPC(const FObjectInitializer& ObjectInitializer)
-	: Super(ObjectInitializer)
+	: Super(ObjectInitializer), HasItem(false)
 {
 	ProxSphere = ObjectInitializer.CreateDefaultSubobject<USphereComponent>(this, TEXT("Proximity Sphere"));
 	ProxSphere->AttachToComponent(RootComponent, FAttachmentTransformRules::KeepWorldTransform);

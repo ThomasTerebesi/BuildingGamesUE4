@@ -5,6 +5,7 @@
 #include "CoreMinimal.h"
 #include "GameFramework/Character.h"
 #include "Components/SphereComponent.h"
+#include "PickupItem.h"
 #include "NPC.generated.h"
 
 UCLASS()
@@ -14,17 +15,17 @@ class GOLDENEGG_API ANPC : public ACharacter
 
 public:
 	// The sphere the player character can collide with.
-	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = Collision)
+	UPROPERTY(VisibleAnywhere, BlueprintReadOnly, Category = "Collision")
 		USphereComponent* ProxSphere;
 
 	// The NPC's message that will show up on the screen.
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPCMessage)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NPCMessage")
 		FString NpcMessage;
 
-	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = NPCMessage)
+	UPROPERTY(EditAnywhere, BlueprintReadOnly, Category = "NPCMessage")
 		FString NpcName;
 
-	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = NPCMessage)
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NPCMessage")
 		UTexture2D* NpcFace;
 
 	UFUNCTION(BlueprintNativeEvent, Category = "Collision")
@@ -35,6 +36,12 @@ public:
 
 	// Sets default values for this character's properties
 	ANPC(const FObjectInitializer& ObjectInitializer);
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NPCItem")
+	bool HasItem;
+
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = "NPCItem")
+	APickupItem* Item;
 
 protected:
 	// Called when the game starts or when spawned

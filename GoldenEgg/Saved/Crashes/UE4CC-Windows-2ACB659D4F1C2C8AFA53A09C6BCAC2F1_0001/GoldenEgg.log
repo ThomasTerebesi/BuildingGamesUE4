@@ -1,0 +1,987 @@
+﻿Log file open, 05/01/19 19:22:42
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GoldenEgg
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.170789
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.077s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.002s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-17.22.42:359][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.01-17.22.42:359][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.01-17.22.42:360][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.01-17.22.42:360][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.01-17.22.42:360][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-17.22.42:360][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-17.22.42:365][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.01-17.22.42:365][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.01-17.22.42:366][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.01-17.22.42:366][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.01-17.22.42:366][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.01-17.22.42:380][  0]LogHAL: Display: Platform has ~ 16 GB [17091121152 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.01-17.22.42:380][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.01-17.22.42:380][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.01-17.22.42:380][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.01-17.22.42:381][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.01-17.22.42:381][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-17.22.42:381][  0]LogInit: Computer: MERLIN
+[2019.05.01-17.22.42:381][  0]LogInit: User: Thomas
+[2019.05.01-17.22.42:381][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.01-17.22.42:381][  0]LogInit: High frequency timer resolution =3.421880 MHz
+[2019.05.01-17.22.42:382][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.01-17.22.42:382][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.01-17.22.42:382][  0]LogMemory: Process Physical Memory: 102.05 MB used, 102.05 MB peak
+[2019.05.01-17.22.42:382][  0]LogMemory: Process Virtual Memory: 84.76 MB used, 84.76 MB peak
+[2019.05.01-17.22.42:382][  0]LogMemory: Physical Memory: 6346.07 MB used,  9953.29 MB free, 16299.36 MB total
+[2019.05.01-17.22.42:382][  0]LogMemory: Virtual Memory: 4628.02 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.05.01-17.22.42:399][  0]LogInit: Using OS detected language (de-DE).
+[2019.05.01-17.22.42:399][  0]LogInit: Using OS detected locale (de-DE).
+[2019.05.01-17.22.42:400][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
+[2019.05.01-17.22.42:401][  0]LogStreaming: Display: Took  0.002s to InitEngineTextLocalization.
+[2019.05.01-17.22.42:401][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.01-17.22.42:427][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.01-17.22.42:427][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.01-17.22.42:593][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.01-17.22.42:593][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.01-17.22.42:643][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.05.01-17.22.42:643][  0]LogD3D11RHI:       6052/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.01-17.22.42:645][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.01-17.22.42:645][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.01-17.22.42:645][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.01-17.22.42:650][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.01-17.22.42:650][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.01-17.22.42:650][  0]LogWindows: EnumDisplayDevices:
+[2019.05.01-17.22.42:650][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.05.01-17.22.42:650][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.05.01-17.22.42:651][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.01-17.22.42:651][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.01-17.22.42:651][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.01-17.22.42:651][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.05.01-17.22.42:651][  0]LogD3D11RHI:   Driver Version: 397.31 (internal:24.21.13.9731, unified:397.31)
+[2019.05.01-17.22.42:651][  0]LogD3D11RHI:      Driver Date: 4-22-2018
+[2019.05.01-17.22.42:651][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.05.01-17.22.42:726][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.01-17.22.42:742][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.01-17.22.43:031][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.01-17.22.43:042][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.01-17.22.43:054][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.01-17.22.43:065][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.01-17.22.43:076][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.01-17.22.43:088][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.01-17.22.43:099][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.01-17.22.43:110][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.01-17.22.43:115][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:181][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-17.22.43:182][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.01-17.22.43:236][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.01-17.22.43:236][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.01-17.22.43:255][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.01-17.22.43:255][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.01-17.22.43:266][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.01-17.22.43:276][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.01-17.22.43:286][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.01-17.22.43:296][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.01-17.22.43:331][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.01-17.22.43:331][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.01-17.22.43:331][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.01-17.22.43:375][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Intermediate/Shaders/WorkingDirectory/4716/).
+[2019.05.01-17.22.43:375][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas/AppData/Local/Temp/UnrealShaderWorkingDir/BBFE9E624C4CEBBB609E13B101191A12/'.
+[2019.05.01-17.22.43:377][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.01-17.22.43:377][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.01-17.22.43:377][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.01-17.22.43:824][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.01-17.22.43:865][  0]LogDerivedDataCache: Loaded boot cache 0.04s 71MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.01-17.22.43:866][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.01-17.22.43:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.01-17.22.43:866][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.01-17.22.43:866][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.01-17.22.43:866][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.01-17.22.43:879][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.01-17.22.43:879][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.01-17.22.43:879][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.01-17.22.43:891][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.01-17.22.43:891][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.01-17.22.43:891][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.01-17.22.43:910][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.01-17.22.43:911][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.01-17.22.43:911][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.01-17.22.43:985][  0]LogAssetRegistry: FAssetRegistry took 0.0308 seconds to start up
+[2019.05.01-17.22.44:233][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.01-17.22.44:352][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.01-17.22.44:355][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.01-17.22.44:355][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.01-17.22.44:355][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.01-17.22.44:355][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.01-17.22.44:364][  0]LogNetVersion: GoldenEgg 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2738846871)
+[2019.05.01-17.22.44:768][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.081114 seconds
+[2019.05.01-17.22.44:774][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.01-17.22.44:774][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.05.01-17.22.44:774][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.01-17.22.45:446][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.01-17.22.45:459][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.01-17.22.46:498][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.490 s
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: 
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1772]
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: Stack: 
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd33a36a99 UE4Editor-Engine.dll!UnknownFunction []
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd221f8834 UE4Editor-GoldenEgg-694.dll!ANPC::ANPC() [C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Source\GoldenEgg\NPC.cpp:30]
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd37768973 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd37a320a8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd37a1819f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd3776e977 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd37deca7e UE4Editor-Core.dll!UnknownFunction []
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd37fa9e66 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.01-17.22.46:498][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd74e4cfec UE4Editor-Projects.dll!UnknownFunction []
+[2019.05.01-17.22.46:499][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd74e4d2d4 UE4Editor-Projects.dll!UnknownFunction []
+[2019.05.01-17.22.46:499][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89d83a1 UE4Editor.exe!UnknownFunction []
+[2019.05.01-17.22.46:499][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89ddc6b UE4Editor.exe!UnknownFunction []
+[2019.05.01-17.22.46:499][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89d5783 UE4Editor.exe!UnknownFunction []
+[2019.05.01-17.22.46:499][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89d59ea UE4Editor.exe!UnknownFunction []
+[2019.05.01-17.22.46:499][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89e48da UE4Editor.exe!UnknownFunction []
+[2019.05.01-17.22.46:499][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89e659a UE4Editor.exe!UnknownFunction []
+[2019.05.01-17.22.46:499][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd8e604034 KERNEL32.DLL!UnknownFunction []
+[2019.05.01-17.22.46:499][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd8f413691 ntdll.dll!UnknownFunction []
+[2019.05.01-17.22.46:499][  0]LogOutputDevice: Error: 
+[2019.05.01-17.22.46:503][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2019.05.01-17.22.46:997][  0]LogStats:                    SendNewReport -  0.494 s
+[2019.05.01-17.22.46:997][  0]LogStats:             FDebug::EnsureFailed -  0.989 s
+[2019.05.01-17.22.47:039][  0]SourceControl: Source control is disabled
+[2019.05.01-17.22.47:039][  0]SourceControl: Source control is disabled
+[2019.05.01-17.22.47:040][  0]SourceControl: Source control is disabled
+[2019.05.01-17.22.47:040][  0]SourceControl: Source control is disabled
+[2019.05.01-17.22.47:199][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.01-17.22.47:242][  0]LogOcInput: OculusInput pre-init called
+[2019.05.01-17.22.47:363][  0]LogEngine: Initializing Engine...
+[2019.05.01-17.22.47:363][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.01-17.22.47:364][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.01-17.22.47:364][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.01-17.22.47:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.01-17.22.47:365][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.01-17.22.47:552][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.01-17.22.47:563][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.01-17.22.47:572][  0]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-17.22.47:585][  0]LogInit: FAudioDevice initialized.
+[2019.05.01-17.22.47:585][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.01-17.22.47:646][  0]LogDerivedDataCache: Saved boot cache 0.06s 71MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.01-17.22.47:650][  0]LogInit: Texture streaming: Enabled
+[2019.05.01-17.22.47:663][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.01-17.22.47:676][  0]LogInit: Transaction tracking system initialized
+[2019.05.01-17.22.47:697][  0]BlueprintLog: New page: Editor Load
+[2019.05.01-17.22.47:758][  0]LocalizationService: Localization service is disabled
+[2019.05.01-17.22.48:147][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/' took 0.02s
+[2019.05.01-17.22.48:147][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.01-17.22.48:147][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.01-17.22.48:147][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.01-17.22.48:147][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.01-17.22.48:147][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.01-17.22.48:147][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.01-17.22.48:147][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.01-17.22.48:242][  0]SourceControl: Source control is disabled
+[2019.05.01-17.22.48:242][  0]Cmd: MAP LOAD FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.01-17.22.48:246][  0]LightingResults: New page: Lighting Build
+[2019.05.01-17.22.48:248][  0]MapCheck: New page: Map Check
+[2019.05.01-17.22.48:248][  0]LightingResults: New page: Lighting Build
+[2019.05.01-17.22.48:942][  0]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-17.22.48:948][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.01-17.22.48:966][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.01-17.22.48:967][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,112ms to complete.
+[2019.05.01-17.22.48:967][  0]LogFileHelpers: Loading map 'PracticeMap' took 0.724
+[2019.05.01-17.22.49:051][  0]LogCollectionManager: Loaded 0 collections in 0.001505 seconds
+[2019.05.01-17.22.49:065][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Collections/' took 0.01s
+[2019.05.01-17.22.49:065][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/Developers/Thomas/Collections/' took 0.00s
+[2019.05.01-17.22.49:065][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/Collections/' took 0.00s
+[2019.05.01-17.22.49:065][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.01-17.22.49:073][  0]LogContentBrowser: Native class hierarchy populated in 0.0072 seconds. Added 2657 classes and 622 folders.
+[2019.05.01-17.22.49:078][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.01-17.22.49:083][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:087][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:097][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:100][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:103][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:106][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:109][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:112][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:116][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:118][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:121][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:124][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:127][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:130][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:134][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:138][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:154][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:157][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:160][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:163][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:183][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:186][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:189][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:192][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:196][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:199][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-17.22.49:286][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.01-17.22.49:294][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.05.01-17.22.49:316][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.22.49:322][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.22.49:328][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.22.49:335][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.22.50:300][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.01-17.22.50:320][  0]LogSlate: Took 0.000111 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.01-17.22.50:328][  0]LogSlate: Took 0.003993 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.01-17.22.50:328][  0]LogSlate: Took 0.000098 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.01-17.22.50:332][  0]LogSlate: Took 0.003875 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.05.01-17.22.50:467][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GoldenEgg
+[2019.05.01-17.22.50:467][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.01-17.22.50:467][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.05.01-17.22.50:467][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.01-17.22.50:468][  0]LogTemp: BranchPath = MERLIN/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = MERLIN/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.05.01-17.22.50:468][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.01-17.22.50:468][  0]LogRenderer: Reallocating scene render targets to support 1424x888 Format 9 NumSamples 1 (Frame:1).
+[2019.05.01-17.22.50:553][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.01-17.22.50:553][  0]LogLoad: (Engine Initialization) Total time: 9.44 seconds
+[2019.05.01-17.22.50:553][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.01-17.22.50:613][  0]LogAssetRegistry: Asset discovery search completed in 6.6501 seconds
+[2019.05.01-17.22.50:615][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.01-17.22.50:615][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000198 seconds (updated 0 objects)
+[2019.05.01-17.22.50:617][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.05.01-17.22.50:662][  1]LogRenderer: Reallocating scene render targets to support 1424x904 Format 9 NumSamples 1 (Frame:3).
+[2019.05.01-17.23.24:724][367]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-17.23.24:740][367]LogSlate: Took 0.005477 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.01-17.23.28:489][817]LogSlate: Took 0.000131 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.01-17.23.28:494][817]LogAssetEditorManager: Opening Asset editor for Class /Script/GoldenEgg.PickupItem
+[2019.05.01-17.37.07:300][704]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-17.37.15:062][612]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2019.05.01-17.37.15:062][612]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2019.05.01-17.37.15:062][612]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2019.05.01-17.37.15:063][612]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2019.05.01-17.37.15:063][612]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2019.05.01-17.37.15:063][612]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2019.05.01-17.37.15:071][612]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0873,96] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 32 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2019.05.01-17.37.15:175][612]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Avatar.BP_Avatar
+[2019.05.01-17.37.15:616][612]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.05.01-17.37.16:265][612]LogSlate: Took 0.002970 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.01-17.37.31:391][412]LogSlate: Took 0.004499 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.01-17.38.14:479][518]BlueprintLog: New page: Compile BP_Avatar
+[2019.05.01-17.38.15:425][607]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Avatar.uasset" SILENT=true
+[2019.05.01-17.38.15:460][607]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/BP_Avatar9698784A47C781697FCCA3BF08748051.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Avatar.uasset'
+[2019.05.01-17.38.17:631][866]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-17.38.17:645][866]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.38.17:646][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-17.38.17:647][866]PIE: New page: PIE session: PracticeMap (01.05.2019 21:38:17)
+[2019.05.01-17.38.17:659][866]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PracticeMap
+[2019.05.01-17.38.17:661][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002214s)
+[2019.05.01-17.38.17:662][866]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-17.38.17:662][866]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2019.05.01-17.38.17:662][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PracticeMap.PracticeMap to /Game/UEDPIE_0_PracticeMap.PracticeMap (0.003338s)
+[2019.05.01-17.38.17:695][866]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-17.38.17:703][866]LogInit: FAudioDevice initialized.
+[2019.05.01-17.38.17:760][866]LogLoad: Game class is 'BP_GameModeGoldenEgg_C'
+[2019.05.01-17.38.17:762][866]LogWorld: Bringing World /Game/UEDPIE_0_PracticeMap.PracticeMap up for play (max tick rate 0) at 2019.05.01-19.38.17
+[2019.05.01-17.38.17:767][866]LogWorld: Bringing up level for play took: 0.005982
+[2019.05.01-17.38.17:784][866]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0004 seconds. Added 20 classes and 0 folders.
+[2019.05.01-17.38.17:786][866]PIE: Play in editor start time for /Game/UEDPIE_0_PracticeMap -0,83
+[2019.05.01-17.38.17:786][866]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.38.19:197][ 33]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.38.19:198][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.38.19:228][ 33]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-17.38.19:228][ 33]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.38.19:255][ 33]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.38.19:299][ 38]LogPlayLevel: Display: Destroying online subsystem :Context_6
+[2019.05.01-17.38.20:740][211]LogSlate: Window 'BP_Avatar' being destroyed
+[2019.05.01-17.38.22:265][394]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-17.38.22:280][394]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.38.22:281][394]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-17.38.22:281][394]PIE: New page: PIE session: PracticeMap (01.05.2019 21:38:22)
+[2019.05.01-17.38.22:281][394]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PracticeMap
+[2019.05.01-17.38.22:283][394]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001910s)
+[2019.05.01-17.38.22:283][394]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-17.38.22:284][394]LogPlayLevel: PIE: World Init took: (0.000602s)
+[2019.05.01-17.38.22:284][394]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PracticeMap.PracticeMap to /Game/UEDPIE_0_PracticeMap.PracticeMap (0.002918s)
+[2019.05.01-17.38.22:316][394]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-17.38.22:325][394]LogInit: FAudioDevice initialized.
+[2019.05.01-17.38.22:353][394]LogLoad: Game class is 'BP_GameModeGoldenEgg_C'
+[2019.05.01-17.38.22:355][394]LogWorld: Bringing World /Game/UEDPIE_0_PracticeMap.PracticeMap up for play (max tick rate 0) at 2019.05.01-19.38.22
+[2019.05.01-17.38.22:355][394]LogWorld: Bringing up level for play took: 0.001892
+[2019.05.01-17.38.22:368][394]PIE: Play in editor start time for /Game/UEDPIE_0_PracticeMap -0,247
+[2019.05.01-17.38.22:368][394]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.38.32:561][617]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.38.32:562][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.38.32:595][617]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-17.38.32:595][617]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.38.32:621][617]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.38.32:664][621]LogPlayLevel: Display: Destroying online subsystem :Context_7
+[2019.05.01-17.38.38:376][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-17.39.10:499][154]BlueprintLog: New page: Compile BP_Avatar
+[2019.05.01-17.39.11:258][224]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Avatar" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Avatar.uasset" SILENT=true
+[2019.05.01-17.39.11:283][224]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/BP_AvatarED0895DF44F33735C024209E0720BC5A.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Avatar.uasset'
+[2019.05.01-17.49.27:378][688]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-17.49.27:395][688]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.49.27:395][688]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-17.49.27:396][688]PIE: New page: PIE session: PracticeMap (01.05.2019 21:49:27)
+[2019.05.01-17.49.27:396][688]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PracticeMap
+[2019.05.01-17.49.27:398][688]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002304s)
+[2019.05.01-17.49.27:399][688]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-17.49.27:399][688]LogPlayLevel: PIE: World Init took: (0.000677s)
+[2019.05.01-17.49.27:399][688]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PracticeMap.PracticeMap to /Game/UEDPIE_0_PracticeMap.PracticeMap (0.003367s)
+[2019.05.01-17.49.27:433][688]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-17.49.27:441][688]LogInit: FAudioDevice initialized.
+[2019.05.01-17.49.27:469][688]LogLoad: Game class is 'BP_GameModeGoldenEgg_C'
+[2019.05.01-17.49.27:470][688]LogWorld: Bringing World /Game/UEDPIE_0_PracticeMap.PracticeMap up for play (max tick rate 0) at 2019.05.01-19.49.27
+[2019.05.01-17.49.27:471][688]LogWorld: Bringing up level for play took: 0.002039
+[2019.05.01-17.49.27:484][688]PIE: Play in editor start time for /Game/UEDPIE_0_PracticeMap 0,869
+[2019.05.01-17.49.27:485][688]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.49.39:586][140]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.49.39:586][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.49.39:620][140]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-17.49.39:620][140]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.49.39:647][140]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.49.39:688][144]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2019.05.01-17.51.16:902][928]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-17.51.16:977][937]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-17.51.16:991][937]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.51.16:992][937]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-17.51.16:992][937]PIE: New page: PIE session: PracticeMap (01.05.2019 21:51:16)
+[2019.05.01-17.51.16:992][937]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PracticeMap
+[2019.05.01-17.51.16:994][937]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002031s)
+[2019.05.01-17.51.16:995][937]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-17.51.16:995][937]LogPlayLevel: PIE: World Init took: (0.000657s)
+[2019.05.01-17.51.16:995][937]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PracticeMap.PracticeMap to /Game/UEDPIE_0_PracticeMap.PracticeMap (0.003071s)
+[2019.05.01-17.51.17:027][937]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-17.51.17:036][937]LogInit: FAudioDevice initialized.
+[2019.05.01-17.51.17:070][937]LogLoad: Game class is 'BP_GameModeGoldenEgg_C'
+[2019.05.01-17.51.17:072][937]LogWorld: Bringing World /Game/UEDPIE_0_PracticeMap.PracticeMap up for play (max tick rate 0) at 2019.05.01-19.51.17
+[2019.05.01-17.51.17:073][937]LogWorld: Bringing up level for play took: 0.002118
+[2019.05.01-17.51.17:086][937]PIE: Play in editor start time for /Game/UEDPIE_0_PracticeMap 0,471
+[2019.05.01-17.51.17:087][937]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.51.27:222][153]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.51.27:222][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.51.27:256][153]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-17.51.27:256][153]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.51.27:283][153]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.51.27:321][157]LogPlayLevel: Display: Destroying online subsystem :Context_9
+[2019.05.01-17.51.28:558][305]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-17.51.28:665][318]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-17.51.28:680][318]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.51.28:680][318]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-17.51.28:681][318]PIE: New page: PIE session: PracticeMap (01.05.2019 21:51:28)
+[2019.05.01-17.51.28:681][318]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PracticeMap
+[2019.05.01-17.51.28:683][318]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001850s)
+[2019.05.01-17.51.28:683][318]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-17.51.28:683][318]LogPlayLevel: PIE: World Init took: (0.000542s)
+[2019.05.01-17.51.28:684][318]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PracticeMap.PracticeMap to /Game/UEDPIE_0_PracticeMap.PracticeMap (0.002775s)
+[2019.05.01-17.51.28:712][318]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-17.51.28:721][318]LogInit: FAudioDevice initialized.
+[2019.05.01-17.51.28:749][318]LogLoad: Game class is 'BP_GameModeGoldenEgg_C'
+[2019.05.01-17.51.28:750][318]LogWorld: Bringing World /Game/UEDPIE_0_PracticeMap.PracticeMap up for play (max tick rate 0) at 2019.05.01-19.51.28
+[2019.05.01-17.51.28:751][318]LogWorld: Bringing up level for play took: 0.002004
+[2019.05.01-17.51.28:764][318]PIE: Play in editor start time for /Game/UEDPIE_0_PracticeMap 0,149
+[2019.05.01-17.51.28:765][318]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.51.30:188][489]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.51.30:189][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.51.30:224][489]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-17.51.30:224][489]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-17.51.30:251][489]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-17.51.30:290][493]LogPlayLevel: Display: Destroying online subsystem :Context_10
+[2019.05.01-17.58.28:958][358]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-17.58.52:599][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.01-17.58.52:761][176]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap2AE034934786894E25652EAAECB9AF99.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap'
+[2019.05.01-17.58.52:789][176]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap_BuiltData" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset" SILENT=true
+[2019.05.01-17.58.52:852][176]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap_BuiltData36E730B64ACA1EEC1B6AE0AF2B52C2B5.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset'
+[2019.05.01-18.44.12:133][433]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-18.44.12:200][439]Candidate modules for hot reload:
+[2019.05.01-18.44.12:200][439]  GoldenEgg
+[2019.05.01-18.44.12:200][439]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoldenEgg,1522 Win64 Development -TargetType=Editor -Project="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" -canskiplink "C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" ]
+[2019.05.01-18.44.12:203][439]Warning: Starting HotReload took  0.0s.
+[2019.05.01-18.44.36:128][302]CompilerResultsLog: New page: Compilation - 01.05.2019 22:44:36
+[2019.05.01-18.44.36:128][302]CompilerResultsLog: Performing full C++ include scan (hot reloading a new target)
+[2019.05.01-18.44.36:129][302]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
+[2019.05.01-18.44.36:129][302]CompilerResultsLog: Creating makefile for hot reloading GoldenEggEditor (source directory changed)
+[2019.05.01-18.44.36:129][302]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.01-18.44.36:129][302]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-18.44.36:129][302]CompilerResultsLog: Parsing headers for GoldenEggEditor
+[2019.05.01-18.44.36:129][302]CompilerResultsLog:   Running UnrealHeaderTool "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\GoldenEgg.uproject" "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\GoldenEggEditor\Development\GoldenEggEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-18.44.36:130][302]CompilerResultsLog: Reflection code generated for GoldenEggEditor in 9,8690199 seconds
+[2019.05.01-18.44.36:130][302]CompilerResultsLog: Building 8 actions with 4 processes...
+[2019.05.01-18.44.36:130][302]CompilerResultsLog:   [1/8] Avatar.gen.cpp
+[2019.05.01-18.44.36:130][302]CompilerResultsLog:   [2/8] NPC.cpp
+[2019.05.01-18.44.36:130][302]CompilerResultsLog:   [3/8] MyHUD.gen.cpp
+[2019.05.01-18.44.36:130][302]CompilerResultsLog:   [4/8] MyHUD.cpp
+[2019.05.01-18.44.36:130][302]CompilerResultsLog:   [5/8] PickupItem.cpp
+[2019.05.01-18.44.36:130][302]CompilerResultsLog:   [6/8] Avatar.cpp
+[2019.05.01-18.44.36:130][302]CompilerResultsLog:   [7/8] UE4Editor-GoldenEgg-1522.lib
+[2019.05.01-18.44.36:130][302]CompilerResultsLog:      Bibliothek "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-1522.lib" und Objekt "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-1522.exp" werden erstellt.
+[2019.05.01-18.44.36:131][302]CompilerResultsLog:   [8/8] UE4Editor-GoldenEgg-1522.dll
+[2019.05.01-18.44.36:131][302]CompilerResultsLog:      Bibliothek "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-1522.suppressed.lib" und Objekt "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-1522.suppressed.exp" werden erstellt.
+[2019.05.01-18.44.36:131][302]CompilerResultsLog: Total build time: 23,67 seconds (Parallel executor: 8,37 seconds)
+[2019.05.01-18.44.36:132][302]LogMainFrame: MainFrame: Module compiling took 23.935 seconds
+[2019.05.01-18.44.36:182][302]LogClass: Could not find existing class MyHUD in package /Script/GoldenEgg for HotReload, assuming new class
+[2019.05.01-18.44.36:192][302]LogHotReload: Re-instancing MyHUD after hot-reload.
+[2019.05.01-18.44.36:294][302]LogContentBrowser: Native class hierarchy updated for 'GoldenEgg' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.05.01-18.44.36:297][302]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.05.01-18.44.36:590][302]LogContentBrowser: Native class hierarchy populated in 0.0074 seconds. Added 2658 classes and 624 folders.
+[2019.05.01-18.44.36:592][302]Display: HotReload took 24.4s.
+[2019.05.01-18.48.43:645][837]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Shield.BP_Shield
+[2019.05.01-18.50.05:511][924]BlueprintLog: New page: Compile BP_Shield
+[2019.05.01-18.50.06:024][959]BlueprintLog: New page: Compile BP_Shield
+[2019.05.01-18.50.06:289][960]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PracticeMap' took 0.027
+[2019.05.01-18.50.06:290][960]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/BP_Shield] ([1] browsable assets)...
+[2019.05.01-18.50.06:306][960]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/BP_Shield.BP_Shield]
+[2019.05.01-18.50.06:306][960]OBJ SavePackage: Finished generating thumbnails for package [/Game/BP_Shield]
+[2019.05.01-18.50.06:306][960]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Shield" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Autosaves/Game/BP_Shield_Auto1.uasset" SILENT=false AUTOSAVING=true
+[2019.05.01-18.50.06:333][960]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/BP_Shield_Auto1117B5C444801ED78121384BA92894B81.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Autosaves/Game/BP_Shield_Auto1.uasset'
+[2019.05.01-18.50.06:334][960]LogFileHelpers: Auto-saving content packages took 0.045
+[2019.05.01-18.50.07:979][154]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Shield" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Shield.uasset" SILENT=true
+[2019.05.01-18.50.07:992][154]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/BP_Shield812480804822B45B787D3F8C06351284.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Shield.uasset'
+[2019.05.01-18.51.18:617][798]BlueprintLog: New page: Compile BP_Shield
+[2019.05.01-18.51.19:144][835]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Shield" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Shield.uasset" SILENT=true
+[2019.05.01-18.51.19:167][835]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/BP_Shield2EEDCC8D4935E939CF4A3DA862B48BCE.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Shield.uasset'
+[2019.05.01-18.51.59:779][610]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-18.52.02:138][890]LogEditorViewport: Clicking on Actor (context menu): BP_Shield_C (BP_Shield)
+[2019.05.01-18.52.02:165][890]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.01-18.52.13:525][247]LogEditorViewport: Clicking on Actor (LMB): BP_Shield_C (BP_Shield)
+[2019.05.01-18.53.15:365][664]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-18.53.16:513][795]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Shield.BP_Shield
+[2019.05.01-18.53.23:952][650]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-18.53.24:018][658]BlueprintLog: New page: Compile BP_Shield
+[2019.05.01-18.53.24:547][697]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Shield" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Shield.uasset" SILENT=true
+[2019.05.01-18.53.24:567][697]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/BP_Shield3CAD8F4C4F08DD98A17191BB6F11C7B1.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Shield.uasset'
+[2019.05.01-18.53.27:798][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.01-18.53.27:981][ 82]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMapF69472A64F5889C777A89B97ACB02828.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap'
+[2019.05.01-18.53.28:011][ 82]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap_BuiltData" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset" SILENT=true
+[2019.05.01-18.53.28:070][ 82]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap_BuiltData663F57EA47F3E3CFB3BD84BE2CA15053.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset'
+[2019.05.01-18.53.29:522][254]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-18.54.13:234][327]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Smoke)
+[2019.05.01-18.54.14:067][424]LogEditorViewport: Clicking on Actor (LMB): BP_Shield_C (BP_Shield)
+[2019.05.01-18.54.17:889][880]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-18.54.22:022][374]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Smoke)
+[2019.05.01-18.54.23:147][506]LogEditorViewport: Clicking on Actor (LMB): BP_Shield_C (BP_Shield)
+[2019.05.01-18.54.23:460][541]Cmd: DELETE
+[2019.05.01-18.54.23:460][541]Cmd: ACTOR DELETE
+[2019.05.01-18.54.23:471][541]LogEditorActor: Deleted Actor: BP_Shield_C
+[2019.05.01-18.54.23:501][541]LogEditorActor: Deleted 1 Actors (0.036 secs)
+[2019.05.01-18.54.55:299][731]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.01-19.03.28:072][428]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap_Auto2BBEE7C40410FE18ACDE33D985EC4DABF.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Autosaves/Game/PracticeMap_Auto2.umap'
+[2019.05.01-19.03.28:076][428]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PracticeMap' took 0.215
+[2019.05.01-19.03.28:076][428]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.215
+[2019.05.01-19.12.54:196][535]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-19.12.54:283][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.01-19.12.54:477][544]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMapC00AA0D2410574AF24CF02BFA5FD95B9.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap'
+[2019.05.01-19.12.54:506][544]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap_BuiltData" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset" SILENT=true
+[2019.05.01-19.12.54:564][544]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap_BuiltData286905254070E32BB0461C8D1179A87E.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset'
+[2019.05.01-19.30.43:278][641]Candidate modules for hot reload:
+[2019.05.01-19.30.43:278][641]  GoldenEgg
+[2019.05.01-19.30.43:278][641]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoldenEgg,5794 Win64 Development -TargetType=Editor -Project="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" -canskiplink "C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" ]
+[2019.05.01-19.30.43:281][641]Warning: Starting HotReload took  0.0s.
+[2019.05.01-19.30.45:457][870]CompilerResultsLog: New page: Compilation - 01.05.2019 23:30:45
+[2019.05.01-19.30.45:458][870]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
+[2019.05.01-19.30.45:458][870]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.01-19.30.45:458][870]CompilerResultsLog: Target is up to date
+[2019.05.01-19.30.45:458][870]CompilerResultsLog: Total build time: 1,72 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2019.05.01-19.30.45:458][870]LogMainFrame: MainFrame: Module compiling took 2.182 seconds
+[2019.05.01-19.30.45:704][870]LogContentBrowser: Native class hierarchy populated in 0.0077 seconds. Added 2658 classes and 624 folders.
+[2019.05.01-19.30.45:704][870]Display: HotReload took  2.4s.
+[2019.05.01-19.30.49:479][319]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-19.30.50:179][403]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-19.30.50:198][403]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.30.50:199][403]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-19.30.50:199][403]PIE: New page: PIE session: PracticeMap (01.05.2019 23:30:50)
+[2019.05.01-19.30.50:199][403]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PracticeMap
+[2019.05.01-19.30.50:201][403]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002234s)
+[2019.05.01-19.30.50:209][403]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-19.30.50:210][403]LogPlayLevel: PIE: World Init took: (0.008030s)
+[2019.05.01-19.30.50:210][403]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PracticeMap.PracticeMap to /Game/UEDPIE_0_PracticeMap.PracticeMap (0.010683s)
+[2019.05.01-19.30.50:264][403]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-19.30.50:273][403]LogInit: FAudioDevice initialized.
+[2019.05.01-19.30.50:307][403]LogLoad: Game class is 'BP_GameModeGoldenEgg_C'
+[2019.05.01-19.30.50:309][403]LogWorld: Bringing World /Game/UEDPIE_0_PracticeMap.PracticeMap up for play (max tick rate 0) at 2019.05.01-21.30.50
+[2019.05.01-19.30.50:310][403]LogWorld: Bringing up level for play took: 0.002575
+[2019.05.01-19.30.50:324][403]PIE: Play in editor start time for /Game/UEDPIE_0_PracticeMap -0,291
+[2019.05.01-19.30.50:324][403]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.31.22:117][214]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.31.22:118][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.31.22:154][214]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-19.31.22:155][214]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.31.22:187][214]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.31.22:222][217]LogPlayLevel: Display: Destroying online subsystem :Context_15
+[2019.05.01-19.31.53:897][337]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap_Auto30D382226426B0DF1936468830D72F427.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Autosaves/Game/PracticeMap_Auto3.umap'
+[2019.05.01-19.31.53:900][337]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/PracticeMap' took 0.217
+[2019.05.01-19.31.53:900][337]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 0.217
+[2019.05.01-19.33.50:939][689]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.01-19.34.26:252][892]BlueprintLog: New page: Compile BP_Shield
+[2019.05.01-19.34.27:976][ 72]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Shield" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Shield.uasset" SILENT=true
+[2019.05.01-19.34.28:001][ 72]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/BP_Shield822B2D9D421DFEEC5658459E88302B46.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Shield.uasset'
+[2019.05.01-19.34.32:383][596]Candidate modules for hot reload:
+[2019.05.01-19.34.32:383][596]  GoldenEgg
+[2019.05.01-19.34.32:383][596]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoldenEgg,917 Win64 Development -TargetType=Editor -Project="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" -canskiplink "C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" ]
+[2019.05.01-19.34.32:386][596]Warning: Starting HotReload took  0.0s.
+[2019.05.01-19.34.34:175][810]CompilerResultsLog: New page: Compilation - 01.05.2019 23:34:34
+[2019.05.01-19.34.34:175][810]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
+[2019.05.01-19.34.34:175][810]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.01-19.34.34:175][810]CompilerResultsLog: Target is up to date
+[2019.05.01-19.34.34:175][810]CompilerResultsLog: Total build time: 1,54 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2019.05.01-19.34.34:175][810]LogMainFrame: MainFrame: Module compiling took 1.794 seconds
+[2019.05.01-19.34.34:407][810]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2658 classes and 624 folders.
+[2019.05.01-19.34.34:407][810]Display: HotReload took  2.0s.
+[2019.05.01-19.34.34:885][850]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-19.34.34:906][850]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.34.34:906][850]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-19.34.34:906][850]PIE: New page: PIE session: PracticeMap (01.05.2019 23:34:34)
+[2019.05.01-19.34.34:906][850]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PracticeMap
+[2019.05.01-19.34.34:909][850]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002108s)
+[2019.05.01-19.34.34:909][850]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-19.34.34:910][850]LogPlayLevel: PIE: World Init took: (0.000761s)
+[2019.05.01-19.34.34:910][850]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PracticeMap.PracticeMap to /Game/UEDPIE_0_PracticeMap.PracticeMap (0.003257s)
+[2019.05.01-19.34.34:972][850]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-19.34.34:980][850]LogInit: FAudioDevice initialized.
+[2019.05.01-19.34.35:013][850]LogLoad: Game class is 'BP_GameModeGoldenEgg_C'
+[2019.05.01-19.34.35:014][850]LogWorld: Bringing World /Game/UEDPIE_0_PracticeMap.PracticeMap up for play (max tick rate 0) at 2019.05.01-21.34.35
+[2019.05.01-19.34.35:015][850]LogWorld: Bringing up level for play took: 0.001786
+[2019.05.01-19.34.35:028][850]PIE: Play in editor start time for /Game/UEDPIE_0_PracticeMap 0,413
+[2019.05.01-19.34.35:029][850]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.34.41:837][667]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.34.41:838][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.34.41:871][667]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-19.34.41:871][667]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.34.41:906][667]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.34.41:940][669]LogPlayLevel: Display: Destroying online subsystem :Context_16
+[2019.05.01-19.34.43:070][804]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-19.34.43:154][814]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-19.34.43:169][814]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.34.43:170][814]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-19.34.43:170][814]PIE: New page: PIE session: PracticeMap (01.05.2019 23:34:43)
+[2019.05.01-19.34.43:170][814]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PracticeMap
+[2019.05.01-19.34.43:172][814]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001961s)
+[2019.05.01-19.34.43:172][814]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-19.34.43:173][814]LogPlayLevel: PIE: World Init took: (0.000590s)
+[2019.05.01-19.34.43:173][814]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PracticeMap.PracticeMap to /Game/UEDPIE_0_PracticeMap.PracticeMap (0.002958s)
+[2019.05.01-19.34.43:211][814]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-19.34.43:219][814]LogInit: FAudioDevice initialized.
+[2019.05.01-19.34.43:253][814]LogLoad: Game class is 'BP_GameModeGoldenEgg_C'
+[2019.05.01-19.34.43:255][814]LogWorld: Bringing World /Game/UEDPIE_0_PracticeMap.PracticeMap up for play (max tick rate 0) at 2019.05.01-21.34.43
+[2019.05.01-19.34.43:255][814]LogWorld: Bringing up level for play took: 0.001893
+[2019.05.01-19.34.43:268][814]PIE: Play in editor start time for /Game/UEDPIE_0_PracticeMap 0,653
+[2019.05.01-19.34.43:268][814]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.34.57:562][529]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.34.57:563][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.34.57:598][529]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-19.34.57:598][529]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.34.57:630][529]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.34.57:665][532]LogPlayLevel: Display: Destroying online subsystem :Context_17
+[2019.05.01-19.35.01:179][953]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-19.35.01:262][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.01-19.35.01:472][962]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap175A720342A5B2FD103A328D02872413.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap'
+[2019.05.01-19.35.01:500][962]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap_BuiltData" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset" SILENT=true
+[2019.05.01-19.35.01:557][962]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap_BuiltData999843564EA41AC0936E0AB1D4108BF9.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset'
+[2019.05.01-19.35.36:795][107]BlueprintLog: New page: Compile BP_Shield
+[2019.05.01-19.35.37:404][155]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/BP_Shield" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Shield.uasset" SILENT=true
+[2019.05.01-19.35.37:425][155]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/BP_ShieldF5925E2843E24F6A14F9A9AD68AC2C9A.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/BP_Shield.uasset'
+[2019.05.01-19.35.39:800][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.01-19.35.40:002][438]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap9DD342204AB46E138B9AD68E88F7F738.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap'
+[2019.05.01-19.35.40:032][438]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap_BuiltData" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset" SILENT=true
+[2019.05.01-19.35.40:074][438]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap_BuiltDataBC45D1BA456F73C2117CF98BEB64601E.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset'
+[2019.05.01-19.35.40:832][527]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-19.35.40:851][527]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.35.40:852][527]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-19.35.40:852][527]PIE: New page: PIE session: PracticeMap (01.05.2019 23:35:40)
+[2019.05.01-19.35.40:852][527]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PracticeMap
+[2019.05.01-19.35.40:854][527]LogPlayLevel: PIE: StaticDuplicateObject took: (0.001872s)
+[2019.05.01-19.35.40:855][527]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-19.35.40:855][527]LogPlayLevel: PIE: World Init took: (0.000504s)
+[2019.05.01-19.35.40:855][527]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PracticeMap.PracticeMap to /Game/UEDPIE_0_PracticeMap.PracticeMap (0.002720s)
+[2019.05.01-19.35.40:893][527]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-19.35.40:902][527]LogInit: FAudioDevice initialized.
+[2019.05.01-19.35.40:931][527]LogLoad: Game class is 'BP_GameModeGoldenEgg_C'
+[2019.05.01-19.35.40:933][527]LogWorld: Bringing World /Game/UEDPIE_0_PracticeMap.PracticeMap up for play (max tick rate 0) at 2019.05.01-21.35.40
+[2019.05.01-19.35.40:933][527]LogWorld: Bringing up level for play took: 0.001968
+[2019.05.01-19.35.40:946][527]PIE: Play in editor start time for /Game/UEDPIE_0_PracticeMap 0,331
+[2019.05.01-19.35.40:946][527]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.35.48:806][470]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.35.48:806][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.35.48:841][470]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2019.05.01-19.35.48:841][470]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.35.48:873][470]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.35.48:906][473]LogPlayLevel: Display: Destroying online subsystem :Context_18
+[2019.05.01-19.36.18:833][ 63]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-19.45.12:675][391]Candidate modules for hot reload:
+[2019.05.01-19.45.12:675][391]  GoldenEgg
+[2019.05.01-19.45.12:676][391]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoldenEgg,4401 Win64 Development -TargetType=Editor -Project="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" -canskiplink "C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" ]
+[2019.05.01-19.45.12:678][391]Warning: Starting HotReload took  0.0s.
+[2019.05.01-19.45.14:341][587]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Smoke)
+[2019.05.01-19.45.16:223][808]LogEditorViewport: Clicking on Actor (LMB): StaticMeshActor (Floor_400x400)
+[2019.05.01-19.45.17:187][919]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Helena_C (BP_NPC_Helena)
+[2019.05.01-19.45.18:560][ 75]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-19.45.32:687][759]CompilerResultsLog: New page: Compilation - 01.05.2019 23:45:32
+[2019.05.01-19.45.32:687][759]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
+[2019.05.01-19.45.32:687][759]CompilerResultsLog: Creating makefile for hot reloading GoldenEggEditor (source directory changed)
+[2019.05.01-19.45.32:688][759]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.01-19.45.32:688][759]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-19.45.32:688][759]CompilerResultsLog: Parsing headers for GoldenEggEditor
+[2019.05.01-19.45.32:688][759]CompilerResultsLog:   Running UnrealHeaderTool "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\GoldenEgg.uproject" "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\GoldenEggEditor\Development\GoldenEggEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-19.45.32:688][759]CompilerResultsLog: Reflection code generated for GoldenEggEditor in 10,7366307 seconds
+[2019.05.01-19.45.32:689][759]CompilerResultsLog: Building 5 actions with 4 processes...
+[2019.05.01-19.45.32:689][759]CompilerResultsLog:   [1/5] GoldenEgg.init.gen.cpp
+[2019.05.01-19.45.32:689][759]CompilerResultsLog:   [2/5] NPC.gen.cpp
+[2019.05.01-19.45.32:689][759]CompilerResultsLog:   [3/5] NPC.cpp
+[2019.05.01-19.45.32:689][759]CompilerResultsLog:   [4/5] UE4Editor-GoldenEgg-4401.lib
+[2019.05.01-19.45.32:689][759]CompilerResultsLog:      Bibliothek "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-4401.lib" und Objekt "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-4401.exp" werden erstellt.
+[2019.05.01-19.45.32:689][759]CompilerResultsLog:   [5/5] UE4Editor-GoldenEgg-4401.dll
+[2019.05.01-19.45.32:690][759]CompilerResultsLog:      Bibliothek "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-4401.suppressed.lib" und Objekt "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-4401.suppressed.exp" werden erstellt.
+[2019.05.01-19.45.32:690][759]CompilerResultsLog: Total build time: 19,72 seconds (Parallel executor: 3,50 seconds)
+[2019.05.01-19.45.32:690][759]LogMainFrame: MainFrame: Module compiling took 20.017 seconds
+[2019.05.01-19.45.32:772][759]LogClass: Could not find existing class NPC in package /Script/GoldenEgg for HotReload, assuming new class
+[2019.05.01-19.45.32:772][759]LogClass: Function Prox is new.
+[2019.05.01-19.45.32:784][759]LogHotReload: Re-instancing NPC after hot-reload.

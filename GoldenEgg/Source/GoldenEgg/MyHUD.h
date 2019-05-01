@@ -93,6 +93,8 @@ public:
 
 	FVector2D dimensions;
 
+	Widget* heldWidget;
+
 	virtual void DrawHUD() override;
 	void DrawMessages();
 	void AddMessage(Message msg);
@@ -101,6 +103,9 @@ public:
 
 	void ClearWidgets();
 	void AddWidget(Widget widget);
+
+	void MouseClicked();
+	void MouseMoved();
 
 protected:
 	virtual void BeginPlay() override;

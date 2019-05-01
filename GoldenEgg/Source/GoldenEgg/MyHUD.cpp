@@ -135,11 +135,50 @@ void AMyHUD::AddWidget(Widget widget)
 	widgets.Add(widget);
 }
 
+void AMyHUD::MouseClicked()
+{
+	FVector2D mousePosition;
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+	PController->GetMousePosition(mousePosition.X, mousePosition.Y);
+
+	heldWidget = nullptr;	// Clear pointer
+
+	for (int c = 0; c < widgets.Num(); c++)
+	{
+		if (widgets[c].hit(mousePosition))
+		{
+			heldWidget = &widgets[c];
+			return;
+		}
+	}
+}
+
+void AMyHUD::MouseMoved()
+{
+	static FVector2D lastMouse;
+	FVector2D thisMouse, dMouse;
+
+	APlayerController* PController = GetWorld()->GetFirstPlayerController();
+	PController->GetMousePosition(thisMouse.X, thisMouse.Y);
+
+	dMouse = thisMouse - lastMouse;
+
+	float time = PController->GetInputKeyTimeDown(EKeys::LeftMouseButton);
+
+	if (time > 0.0f && heldWidget)
+	{
+		heldWidget->pos.X += dMouse.X;
+		heldWidget->pos.Y += dMouse.Y;
+	}
+
+	lastMouse = thisMouse;
+}
+
 void AMyHUD::BeginPlay()
 {
 	Super::BeginPlay();
 
-	Message testMsg("Printing to the HUD...", 4.0f, FColor::White, nullptr);
-	AddMessage(testMsg);
+	// Message testMsg("Printing to the HUD...", 4.0f, FColor::White, nullptr);
+	// AddMessage(testMsg);
 }
 

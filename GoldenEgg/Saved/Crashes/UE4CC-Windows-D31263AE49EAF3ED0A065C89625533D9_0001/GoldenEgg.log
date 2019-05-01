@@ -1,0 +1,773 @@
+﻿Log file open, 05/01/19 21:45:39
+LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
+LogWindows: File 'aqProf.dll' does not exist
+LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi.dll' does not exist
+LogWindows: Failed to load 'VtuneApi32e.dll' (GetLastError=126)
+LogWindows: File 'VtuneApi32e.dll' does not exist
+LogConsoleResponse: Display: Failed to find resolution value strings in scalability ini. Falling back to default.
+LogInit: Display: Running engine for game: GoldenEgg
+LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+LogPlatformFile: Not using cached read wrapper
+LogTaskGraph: Started task graph with 5 named threads and 14 total threads with 3 sets of task threads.
+LogStats: Stats thread started at 0.173692
+LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
+LogICUInternationalization: ICU TimeZone Detection - Raw Offset: +1:00, Platform Override: ''
+LogPluginManager: Mounting plugin Paper2D
+LogPluginManager: Mounting plugin AISupport
+LogPluginManager: Mounting plugin LightPropagationVolume
+LogPluginManager: Mounting plugin ActorLayerUtilities
+LogPluginManager: Mounting plugin CLionSourceCodeAccess
+LogPluginManager: Mounting plugin CodeLiteSourceCodeAccess
+LogPluginManager: Mounting plugin GitSourceControl
+LogPluginManager: Mounting plugin KDevelopSourceCodeAccess
+LogPluginManager: Mounting plugin NullSourceCodeAccess
+LogPluginManager: Mounting plugin PerforceSourceControl
+LogPluginManager: Mounting plugin SubversionSourceControl
+LogPluginManager: Mounting plugin UObjectPlugin
+LogPluginManager: Mounting plugin VisualStudioCodeSourceCodeAccess
+LogPluginManager: Mounting plugin VisualStudioSourceCodeAccess
+LogPluginManager: Mounting plugin XCodeSourceCodeAccess
+LogPluginManager: Mounting plugin AssetManagerEditor
+LogPluginManager: Mounting plugin CryptoKeys
+LogPluginManager: Mounting plugin DataValidation
+LogPluginManager: Mounting plugin FacialAnimation
+LogPluginManager: Mounting plugin GameplayTagsEditor
+LogPluginManager: Mounting plugin MacGraphicsSwitching
+LogPluginManager: Mounting plugin MeshEditor
+LogPluginManager: Mounting plugin MobileLauncherProfileWizard
+LogPluginManager: Mounting plugin PluginBrowser
+LogPluginManager: Mounting plugin SpeedTreeImporter
+LogPluginManager: Mounting plugin DatasmithContent
+LogPluginManager: Mounting plugin VariantManagerContent
+LogPluginManager: Mounting plugin AlembicImporter
+LogPluginManager: Mounting plugin AppleImageUtils
+LogPluginManager: Mounting plugin AppleVision
+LogPluginManager: Mounting plugin BackChannel
+LogPluginManager: Mounting plugin CharacterAI
+LogPluginManager: Mounting plugin GeometryCache
+LogPluginManager: Mounting plugin HTML5Networking
+LogPluginManager: Mounting plugin ProxyLODPlugin
+LogPluginManager: Mounting plugin MagicLeap
+LogPluginManager: Mounting plugin MagicLeapMedia
+LogPluginManager: Mounting plugin AndroidMedia
+LogPluginManager: Mounting plugin AvfMedia
+LogPluginManager: Mounting plugin ImgMedia
+LogPluginManager: Mounting plugin LinearTimecode
+LogPluginManager: Mounting plugin MediaCompositing
+LogPluginManager: Mounting plugin MediaPlayerEditor
+LogPluginManager: Mounting plugin WebMMedia
+LogPluginManager: Mounting plugin WmfMedia
+LogPluginManager: Mounting plugin TcpMessaging
+LogPluginManager: Mounting plugin UdpMessaging
+LogPluginManager: Mounting plugin ActorSequence
+LogPluginManager: Mounting plugin LevelSequenceEditor
+LogPluginManager: Mounting plugin MatineeToLevelSequence
+LogPluginManager: Mounting plugin NetcodeUnitTest
+LogPluginManager: Mounting plugin NUTUnrealEngine4
+LogPluginManager: Mounting plugin OnlineSubsystemGooglePlay
+LogPluginManager: Mounting plugin OnlineSubsystemIOS
+LogPluginManager: Mounting plugin OnlineSubsystem
+LogPluginManager: Mounting plugin OnlineSubsystemNull
+LogPluginManager: Mounting plugin OnlineSubsystemUtils
+LogPluginManager: Mounting plugin LauncherChunkInstaller
+LogPluginManager: Mounting plugin AndroidDeviceProfileSelector
+LogPluginManager: Mounting plugin AndroidMoviePlayer
+LogPluginManager: Mounting plugin AndroidPermission
+LogPluginManager: Mounting plugin AppleMoviePlayer
+LogPluginManager: Mounting plugin ArchVisCharacter
+LogPluginManager: Mounting plugin AudioCapture
+LogPluginManager: Mounting plugin CableComponent
+LogPluginManager: Mounting plugin CustomMeshComponent
+LogPluginManager: Mounting plugin EditableMesh
+LogPluginManager: Mounting plugin ExampleDeviceProfileSelector
+LogPluginManager: Mounting plugin Firebase
+LogPluginManager: Mounting plugin GoogleCloudMessaging
+LogPluginManager: Mounting plugin IOSDeviceProfileSelector
+LogPluginManager: Mounting plugin LinuxDeviceProfileSelector
+LogPluginManager: Mounting plugin LocationServicesBPLibrary
+LogPluginManager: Mounting plugin MobilePatchingUtils
+LogPluginManager: Mounting plugin OculusVR
+LogPluginManager: Mounting plugin PhysXVehicles
+LogPluginManager: Mounting plugin ProceduralMeshComponent
+LogPluginManager: Mounting plugin RuntimePhysXCooking
+LogPluginManager: Mounting plugin SteamVR
+LogPluginManager: Mounting plugin WebMMoviePlayer
+LogPluginManager: Mounting plugin WindowsMoviePlayer
+LogStreaming: Display: Took  0.068s to configure plugins.
+LogInit: Using libcurl 7.55.1-DEV
+LogInit:  - built for x86_64-pc-win32
+LogInit:  - supports SSL with OpenSSL/1.0.2h
+LogInit:  - supports HTTP deflate (compression) using libz 1.2.8
+LogInit:  - other features:
+LogInit:      CURL_VERSION_SSL
+LogInit:      CURL_VERSION_LIBZ
+LogInit:      CURL_VERSION_IPV6
+LogInit:      CURL_VERSION_ASYNCHDNS
+LogInit:      CURL_VERSION_LARGEFILE
+LogInit:      CURL_VERSION_IDN
+LogInit:  CurlRequestOptions (configurable via config and command line):
+LogInit:  - bVerifyPeer = true  - Libcurl will verify peer certificate
+LogInit:  - bUseHttpProxy = false  - Libcurl will NOT use HTTP proxy
+LogInit:  - bDontReuseConnections = false  - Libcurl will reuse connections
+LogInit:  - MaxHostConnections = 16  - Libcurl will limit the number of connections to a host
+LogInit:  - LocalHostAddr = Default
+LogInit:  - BufferSize = 65536
+LogInit: WinSock: version 1.1 (2.2), MaxSocks=32767, MaxUdp=65467
+LogInit: Build: ++UE4+Release-4.21-CL-4753647
+LogInit: Engine Version: 4.21.2-4753647+++UE4+Release-4.21
+LogInit: Compatible Engine Version: 4.21.0-4541578+++UE4+Release-4.21
+LogInit: Net CL: 4541578
+LogInit: OS: Windows 10 (), CPU: Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz, GPU: NVIDIA GeForce GTX 1060 6GB
+LogInit: Compiled (64-bit): Jan 19 2019 02:07:31
+LogInit: Compiled with Visual C++: 19.13.26129.00
+LogInit: Build Configuration: Development
+LogInit: Branch Name: ++UE4+Release-4.21
+LogInit: Command Line: 
+LogInit: Base Directory: C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/
+LogInit: Installed Engine Build: 1
+LogDevObjectVersion: Number of dev versions registered: 22
+LogDevObjectVersion:   Dev-Blueprints (B0D832E4-1F89-4F0D-ACCF-7EB736FD4AA2): 10
+LogDevObjectVersion:   Dev-Build (E1C64328-A22C-4D53-A36C-8E866417BD8C): 0
+LogDevObjectVersion:   Dev-Core (375EC13C-06E4-48FB-B500-84F0262A717E): 2
+LogDevObjectVersion:   Dev-Editor (E4B068ED-F494-42E9-A231-DA0B2E46BB41): 26
+LogDevObjectVersion:   Dev-Framework (CFFC743F-43B0-4480-9391-14DF171D2073): 34
+LogDevObjectVersion:   Dev-Mobile (B02B49B5-BB20-44E9-A304-32B752E40360): 2
+LogDevObjectVersion:   Dev-Networking (A4E4105C-59A1-49B5-A7C5-40C4547EDFEE): 0
+LogDevObjectVersion:   Dev-Online (39C831C9-5AE6-47DC-9A44-9C173E1C8E7C): 0
+LogDevObjectVersion:   Dev-Physics (78F01B33-EBEA-4F98-B9B4-84EACCB95AA2): 0
+LogDevObjectVersion:   Dev-Platform (6631380F-2D4D-43E0-8009-CF276956A95A): 0
+LogDevObjectVersion:   Dev-Rendering (12F88B9F-8875-4AFC-A67C-D90C383ABD29): 27
+LogDevObjectVersion:   Dev-Sequencer (7B5AE74C-D270-4C10-A958-57980B212A5A): 9
+LogDevObjectVersion:   Dev-VR (D7296918-1DD6-4BDD-9DE2-64A83CC13884): 2
+LogDevObjectVersion:   Dev-LoadTimes (C2A15278-BFE7-4AFE-6C17-90FF531DF755): 1
+LogDevObjectVersion:   Private-Geometry (6EACA3D4-40EC-4CC1-B786-8BED09428FC5): 3
+LogDevObjectVersion:   Dev-AnimPhys (29E575DD-E0A3-4627-9D10-D276232CDCEA): 17
+LogDevObjectVersion:   Dev-Anim (AF43A65D-7FD3-4947-9873-3E8ED9C1BB05): 2
+LogDevObjectVersion:   Dev-ReflectionCapture (6B266CEC-1EC7-4B8F-A30B-E4D90942FC07): 1
+LogDevObjectVersion:   Dev-Automation (0DF73D61-A23F-47EA-B727-89E90C41499A): 1
+LogDevObjectVersion:   FortniteMain (601D1886-AC64-4F84-AA16-D3DE0DEAC7D6): 17
+LogDevObjectVersion:   Dev-Enterprise (9DFFBCD6-494F-0158-E221-12823C92A888): 4
+LogDevObjectVersion:   Dev-Niagara (F2AED0AC-9AFE-416F-8664-AA7FFA26D6FC): 1
+LogStreaming: Display: Took  0.001s to delete old logs.
+LogInit: Presizing for max 8388607 objects, including 0 objects not considered by GC, pre-allocating 0 bytes for permanent pool.
+LogInit: Object subsystem initialized
+LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
+LogConfig: Setting CVar [[r.setres:1280x720]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-19.45.39:629][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:8388607]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.MergeGCClusters:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2019.05.01-19.45.39:629][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-19.45.39:629][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-19.45.39:634][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.01-19.45.39:634][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2019.05.01-19.45.39:635][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2019.05.01-19.45.39:635][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.01-19.45.39:635][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2019.05.01-19.45.39:645][  0]LogHAL: Display: Platform has ~ 16 GB [17091121152 / 17179869184 / 16], which maps to Larger [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Vulkan.UseRealUBs:1]]
+[2019.05.01-19.45.39:645][  0]LogInit: Going up to parent DeviceProfile []
+[2019.05.01-19.45.39:645][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:0.8]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:3]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:4]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:1024]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.04]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:0.85]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:0.8]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:0.5]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.AOQuality:1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:16]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:64]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:3]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.6]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.5]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:3]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Upscale.Quality:2]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:0.8]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:0        ; lower gathering accumulator quality]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:2          ; Max3x3 postfilering method]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:1    ; no background occlusion]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:0      ; no bokeh simulation when scattering]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.04        ; only a maximum of 4% of scattered bokeh]]
+[2019.05.01-19.45.39:645][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:0                ; no slight out of focus]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:0                ; faster temporal accumulation]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.012   ; required because of AccumulatorQuality=0]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Applying CVar settings from Section [TextureQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:4]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:1]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:800]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:48]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.SSR.Quality:2]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.SceneColorFormat:3]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.DetailMode:1]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:1]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.SSS.Quality:-1]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:0.5]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:1]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@2] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Scalability.ini]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[foliage.DensityScale:0.8]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[grass.DensityScale:0.8]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2019.05.01-19.45.39:646][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2019.05.01-19.45.39:646][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Config/Windows/Engine.ini]
+[2019.05.01-19.45.39:646][  0]LogInit: Computer: MERLIN
+[2019.05.01-19.45.39:646][  0]LogInit: User: Thomas
+[2019.05.01-19.45.39:646][  0]LogInit: CPU Page size=4096, Cores=4
+[2019.05.01-19.45.39:646][  0]LogInit: High frequency timer resolution =3.421880 MHz
+[2019.05.01-19.45.39:646][  0]LogMemory: Memory total: Physical=15.9GB (16GB approx)
+[2019.05.01-19.45.39:646][  0]LogMemory: Platform Memory Stats for Windows
+[2019.05.01-19.45.39:646][  0]LogMemory: Process Physical Memory: 101.68 MB used, 101.68 MB peak
+[2019.05.01-19.45.39:646][  0]LogMemory: Process Virtual Memory: 90.92 MB used, 90.92 MB peak
+[2019.05.01-19.45.39:646][  0]LogMemory: Physical Memory: 6898.14 MB used,  9401.23 MB free, 16299.36 MB total
+[2019.05.01-19.45.39:646][  0]LogMemory: Virtual Memory: 4634.45 MB used,  134213096.00 MB free, 134217728.00 MB total
+[2019.05.01-19.45.39:663][  0]LogInit: Using OS detected language (de-DE).
+[2019.05.01-19.45.39:663][  0]LogInit: Using OS detected locale (de-DE).
+[2019.05.01-19.45.39:664][  0]LogTextLocalizationManager: No specific localization for 'de-DE' exists, so the 'de' localization will be used.
+[2019.05.01-19.45.39:665][  0]LogStreaming: Display: Took  0.002s to InitEngineTextLocalization.
+[2019.05.01-19.45.39:665][  0]LogInit: Setting process to per monitor DPI aware
+[2019.05.01-19.45.39:691][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2019.05.01-19.45.39:691][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2019.05.01-19.45.39:837][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.01-19.45.39:837][  0]LogD3D11RHI: D3D11 adapters:
+[2019.05.01-19.45.39:886][  0]LogD3D11RHI:    0. 'NVIDIA GeForce GTX 1060 6GB' (Feature Level 11_0)
+[2019.05.01-19.45.39:886][  0]LogD3D11RHI:       6052/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:2, VendorId:0x10de
+[2019.05.01-19.45.39:887][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2019.05.01-19.45.39:887][  0]LogD3D11RHI:       0/0/8149 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2019.05.01-19.45.39:887][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2019.05.01-19.45.39:893][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2019.05.01-19.45.39:893][  0]LogD3D11RHI:     GPU DeviceId: 0x1c03 (for the marketing name, search the web for "GPU Device Id")
+[2019.05.01-19.45.39:893][  0]LogWindows: EnumDisplayDevices:
+[2019.05.01-19.45.39:893][  0]LogWindows:    0. 'NVIDIA GeForce GTX 1060 6GB' (P:1 D:1)
+[2019.05.01-19.45.39:894][  0]LogWindows:    1. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:1)
+[2019.05.01-19.45.39:894][  0]LogWindows:    2. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.01-19.45.39:894][  0]LogWindows:    3. 'NVIDIA GeForce GTX 1060 6GB' (P:0 D:0)
+[2019.05.01-19.45.39:894][  0]LogWindows: DebugString: FoundDriverCount:4 
+[2019.05.01-19.45.39:894][  0]LogD3D11RHI:     Adapter Name: NVIDIA GeForce GTX 1060 6GB
+[2019.05.01-19.45.39:894][  0]LogD3D11RHI:   Driver Version: 397.31 (internal:24.21.13.9731, unified:397.31)
+[2019.05.01-19.45.39:894][  0]LogD3D11RHI:      Driver Date: 4-22-2018
+[2019.05.01-19.45.39:894][  0]LogRHI: Texture pool is 4236 MB (70% of 6052 MB)
+[2019.05.01-19.45.39:922][  0]LogD3D11RHI: Async texture creation enabled
+[2019.05.01-19.45.39:939][  0]LogD3D11RHI: GPU Timing Frequency: 1000.000000 (Debug: 2 2)
+[2019.05.01-19.45.40:229][  0]LogTemp: Display: Loaded TP AllDesktopTargetPlatform
+[2019.05.01-19.45.40:240][  0]LogTemp: Display: Loaded TP MacClientTargetPlatform
+[2019.05.01-19.45.40:250][  0]LogTemp: Display: Loaded TP MacNoEditorTargetPlatform
+[2019.05.01-19.45.40:261][  0]LogTemp: Display: Loaded TP MacServerTargetPlatform
+[2019.05.01-19.45.40:272][  0]LogTemp: Display: Loaded TP MacTargetPlatform
+[2019.05.01-19.45.40:283][  0]LogTemp: Display: Loaded TP WindowsClientTargetPlatform
+[2019.05.01-19.45.40:294][  0]LogTemp: Display: Loaded TP WindowsNoEditorTargetPlatform
+[2019.05.01-19.45.40:305][  0]LogTemp: Display: Loaded TP WindowsServerTargetPlatform
+[2019.05.01-19.45.40:310][  0]LogTemp: Display: Loaded TP WindowsTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:375][  0]LogTemp: Display: Loaded TP AndroidTargetPlatform
+[2019.05.01-19.45.40:376][  0]LogTemp: Display: Loaded TP HTML5TargetPlatform
+[2019.05.01-19.45.40:432][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.01-19.45.40:432][  0]LogTemp: Display: Loaded TP IOSTargetPlatform
+[2019.05.01-19.45.40:450][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.01-19.45.40:451][  0]LogTemp: Display: Loaded TP TVOSTargetPlatform
+[2019.05.01-19.45.40:461][  0]LogTemp: Display: Loaded TP LinuxClientTargetPlatform
+[2019.05.01-19.45.40:470][  0]LogTemp: Display: Loaded TP LinuxNoEditorTargetPlatform
+[2019.05.01-19.45.40:480][  0]LogTemp: Display: Loaded TP LinuxServerTargetPlatform
+[2019.05.01-19.45.40:491][  0]LogTemp: Display: Loaded TP LinuxTargetPlatform
+[2019.05.01-19.45.40:526][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.01-19.45.40:527][  0]LogTemp: Display: Loaded TP LuminTargetPlatform
+[2019.05.01-19.45.40:527][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2019.05.01-19.45.40:571][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Intermediate/Shaders/WorkingDirectory/10584/).
+[2019.05.01-19.45.40:571][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Thomas/AppData/Local/Temp/UnrealShaderWorkingDir/EB5B9EBF4E02A24911E71393F57EC9E4/'.
+[2019.05.01-19.45.40:573][  0]LogXGEController: Cleaning working directory: C:/Users/Thomas/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2019.05.01-19.45.40:573][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2019.05.01-19.45.40:573][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2019.05.01-19.45.40:573][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2019.05.01-19.45.41:020][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2019.05.01-19.45.41:062][  0]LogDerivedDataCache: Loaded boot cache 0.04s 73MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.01-19.45.41:062][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Thomas/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc
+[2019.05.01-19.45.41:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2019.05.01-19.45.41:062][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2019.05.01-19.45.41:062][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.01-19.45.41:062][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2019.05.01-19.45.41:076][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2019.05.01-19.45.41:076][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2019.05.01-19.45.41:076][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2019.05.01-19.45.41:088][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Thomas/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2019.05.01-19.45.41:088][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2019.05.01-19.45.41:088][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2019.05.01-19.45.41:106][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2019.05.01-19.45.41:108][  0]LogSlate: Using FreeType 2.6.0
+[2019.05.01-19.45.41:108][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2019.05.01-19.45.41:181][  0]LogAssetRegistry: FAssetRegistry took 0.0303 seconds to start up
+[2019.05.01-19.45.41:430][  0]LogInit: Selected Device Profile: [Windows]
+[2019.05.01-19.45.41:553][  0]LogSimplygon: Simplygon DLL not present - disabling.
+[2019.05.01-19.45.41:556][  0]LogMeshReduction: Using SimplygonSwarm for distributed automatic mesh merging
+[2019.05.01-19.45.41:556][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2019.05.01-19.45.41:556][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2019.05.01-19.45.41:556][  0]LogMeshReduction: No automatic skeletal mesh reduction module available
+[2019.05.01-19.45.41:567][  0]LogNetVersion: GoldenEgg 1.0.0, NetCL: 4541578, EngineNetVer: 5, GameNetVer: 0 (Checksum: 2738846871)
+[2019.05.01-19.45.42:000][  0]LogPackageLocalizationCache: Processed 11 localized package path(s) for 2 prioritized culture(s) in 0.076404 seconds
+[2019.05.01-19.45.42:005][  0]LogUObjectArray: 39775 objects as part of root set at end of initial load.
+[2019.05.01-19.45.42:005][  0]LogUObjectAllocator: 6914664 out of 0 bytes used by permanent object pool.
+[2019.05.01-19.45.42:005][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2019.05.01-19.45.42:697][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2019.05.01-19.45.42:710][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2019.05.01-19.45.43:725][  0]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.463 s
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: === Handled ensure: ===
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: 
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative && AttachmentRules.RotationRule == EAttachmentRule::KeepRelative && AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1772]
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: Stack: 
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd33a36a99 UE4Editor-Engine.dll!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd22248cdb UE4Editor-GoldenEgg-4401.dll!ANPC::ANPC() [C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Source\GoldenEgg\NPC.cpp:35]
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd57ab8973 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd57d820a8 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd57d6819f UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd57abe977 UE4Editor-CoreUObject.dll!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd37deca7e UE4Editor-Core.dll!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd37fa9e66 UE4Editor-Core.dll!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd74e4cfec UE4Editor-Projects.dll!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd74e4d2d4 UE4Editor-Projects.dll!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89d83a1 UE4Editor.exe!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89ddc6b UE4Editor.exe!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89d5783 UE4Editor.exe!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89d59ea UE4Editor.exe!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89e48da UE4Editor.exe!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ff6e89e659a UE4Editor.exe!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd8e604034 KERNEL32.DLL!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: [Callstack] 0x00007ffd8f413691 ntdll.dll!UnknownFunction []
+[2019.05.01-19.45.43:726][  0]LogOutputDevice: Error: 
+[2019.05.01-19.45.43:736][  0]LogStats:                SubmitErrorReport -  0.000 s
+[2019.05.01-19.45.44:137][  0]LogStats:                    SendNewReport -  0.401 s
+[2019.05.01-19.45.44:137][  0]LogStats:             FDebug::EnsureFailed -  0.874 s
+[2019.05.01-19.45.44:170][  0]SourceControl: Source control is disabled
+[2019.05.01-19.45.44:170][  0]SourceControl: Source control is disabled
+[2019.05.01-19.45.44:171][  0]SourceControl: Source control is disabled
+[2019.05.01-19.45.44:172][  0]SourceControl: Source control is disabled
+[2019.05.01-19.45.44:315][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2019.05.01-19.45.44:358][  0]LogOcInput: OculusInput pre-init called
+[2019.05.01-19.45.44:479][  0]LogEngine: Initializing Engine...
+[2019.05.01-19.45.44:480][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2019.05.01-19.45.44:481][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.01-19.45.44:481][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.01-19.45.44:481][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.01-19.45.44:481][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.01-19.45.44:675][  0]LogInit: Initializing FReadOnlyCVARCache
+[2019.05.01-19.45.44:685][  0]LogAIModule: Creating AISystem for world Untitled
+[2019.05.01-19.45.44:741][  0]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-19.45.44:767][  0]LogInit: FAudioDevice initialized.
+[2019.05.01-19.45.44:767][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2019.05.01-19.45.44:831][  0]LogDerivedDataCache: Saved boot cache 0.06s 73MB C:/Users/Thomas/AppData/Local/UnrealEngine/4.21/DerivedDataCache/Boot.ddc.
+[2019.05.01-19.45.44:835][  0]LogInit: Texture streaming: Enabled
+[2019.05.01-19.45.44:849][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2019.05.01-19.45.44:850][  0]LogEngineSessionManager: EngineSessionManager sent abnormal shutdown report. Type=Crashed, SessionId={C9824B09-49A1-04C5-0AA7-4B885F272097}
+[2019.05.01-19.45.44:863][  0]LogInit: Transaction tracking system initialized
+[2019.05.01-19.45.44:884][  0]BlueprintLog: New page: Editor Load
+[2019.05.01-19.45.44:949][  0]LocalizationService: Localization service is disabled
+[2019.05.01-19.45.45:366][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/' took 0.02s
+[2019.05.01-19.45.45:366][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2019.05.01-19.45.45:366][  0]LogCook: Display: Mobile HDR setting 1
+[2019.05.01-19.45.45:366][  0]LogGameplayTags: Display: UGameplayTagsManager::DoneAddingNativeTags. DelegateIsBound: 0
+[2019.05.01-19.45.45:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI prefixes -  0.000 s
+[2019.05.01-19.45.45:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: Construct from data asset -  0.000 s
+[2019.05.01-19.45.45:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: ImportINI -  0.000 s
+[2019.05.01-19.45.45:366][  0]LogStats: UGameplayTagsManager::ConstructGameplayTagTree: GameplayTagTreeChangedEvent.Broadcast -  0.000 s
+[2019.05.01-19.45.45:466][  0]SourceControl: Source control is disabled
+[2019.05.01-19.45.45:466][  0]Cmd: MAP LOAD FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2019.05.01-19.45.45:466][  0]LightingResults: New page: Lighting Build
+[2019.05.01-19.45.45:468][  0]MapCheck: New page: Map Check
+[2019.05.01-19.45.45:468][  0]LightingResults: New page: Lighting Build
+[2019.05.01-19.45.45:850][  0]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-19.45.45:855][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2019.05.01-19.45.45:877][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2019.05.01-19.45.45:877][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0,097ms to complete.
+[2019.05.01-19.45.45:877][  0]LogFileHelpers: Loading map 'PracticeMap' took 0.411
+[2019.05.01-19.45.45:948][  0]LogCollectionManager: Loaded 0 collections in 0.001334 seconds
+[2019.05.01-19.45.45:973][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/Collections/' took 0.01s
+[2019.05.01-19.45.45:973][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/Developers/Thomas/Collections/' took 0.00s
+[2019.05.01-19.45.45:973][  0]LogFileCache: Scanning file cache for directory 'C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/Collections/' took 0.01s
+[2019.05.01-19.45.45:973][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000000 seconds
+[2019.05.01-19.45.45:981][  0]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2657 classes and 622 folders.
+[2019.05.01-19.45.45:986][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.01-19.45.45:987][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:987][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:988][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:988][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:988][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:989][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:989][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:989][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:990][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:990][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:991][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:991][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:992][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:992][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:992][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:993][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:994][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:995][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:995][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:996][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:996][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.45:996][  0]LogPakFile: Registered encryption key '00000000000000000000000000000000': 0 pak files mounted, 0 remain pending
+[2019.05.01-19.45.46:018][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.01-19.45.46:023][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2019.05.01-19.45.46:041][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.45.46:047][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.45.46:052][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.45.46:058][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2019.05.01-19.45.47:255][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2019.05.01-19.45.47:274][  0]LogSlate: Took 0.000123 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2019.05.01-19.45.47:277][  0]LogSlate: Took 0.000113 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2019.05.01-19.45.47:277][  0]LogSlate: Took 0.000096 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2019.05.01-19.45.47:280][  0]LogSlate: Took 0.000117 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/DroidSansMono.ttf' (77K)
+[2019.05.01-19.45.47:338][  0]LogTemp: Executing iPhonePackager certificates Engine -bundlename com.YourCompany.GoldenEgg
+[2019.05.01-19.45.47:339][  0]LogTemp: CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.01-19.45.47:339][  0]LogTemp: Initial Dir: C:\Program Files\Epic Games\UE_4.21
+[2019.05.01-19.45.47:339][  0]LogTemp: Env CWD: C:\Program Files\Epic Games\UE_4.21\Engine\Binaries\DotNET\IOS
+[2019.05.01-19.45.47:339][  0]LogTemp: BranchPath = MERLIN/C/Program Files/Epic Games/UE_4.21/Engine/Binaries --- GameBranchPath = MERLIN/C/Program Files/Epic Games/UE_4.21/Engine/Binaries
+[2019.05.01-19.45.47:339][  0]LogSlate: Took 0.000109 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.01-19.45.47:393][  0]LogTemp: IPP ERROR: Could not find provision directory 'C:\Users\Thomas\AppData\Local/Apple Computer/MobileDevice/Provisioning Profiles/'.
+[2019.05.01-19.45.47:393][  0]LogRenderer: Reallocating scene render targets to support 1424x888 Format 9 NumSamples 1 (Frame:1).
+[2019.05.01-19.45.47:481][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2019.05.01-19.45.47:481][  0]LogLoad: (Engine Initialization) Total time: 9.02 seconds
+[2019.05.01-19.45.47:481][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2019.05.01-19.45.47:491][  0]LogWindowsTextInputMethodSystem: Display: IME system now deactivated.
+[2019.05.01-19.45.47:531][  0]LogAssetRegistry: Asset discovery search completed in 6.3719 seconds
+[2019.05.01-19.45.47:533][  0]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000000 seconds (found 0 objects)
+[2019.05.01-19.45.47:533][  0]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000186 seconds (updated 0 objects)
+[2019.05.01-19.45.47:534][  0]LogContentStreaming: Texture pool size now 800 MB
+[2019.05.01-19.45.47:591][  1]LogRenderer: Reallocating scene render targets to support 1424x904 Format 9 NumSamples 1 (Frame:5).
+[2019.05.01-19.45.48:613][105]LogSlate: Took 0.000116 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2019.05.01-19.45.51:689][472]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-19.45.51:847][481]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Crouch' for  InputAction Crouch
+[2019.05.01-19.45.51:847][481]LogBlueprint: Warning: [Compiler Ue4ASP_Character] InputAction Event references unknown Action 'Jump' for  InputAction Jump
+[2019.05.01-19.45.51:847][481]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveForward' for  InputAxis MoveForward
+[2019.05.01-19.45.51:847][481]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'LookUp' for  InputAxis LookUp
+[2019.05.01-19.45.51:848][481]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'Turn' for  InputAxis Turn
+[2019.05.01-19.45.51:848][481]LogBlueprint: Warning: [Compiler Ue4ASP_Character] Input Axis Event references unknown Axis 'MoveRight' for  InputAxis MoveRight
+[2019.05.01-19.45.51:856][481]LogBlueprint: Warning: [Compiler Ue4ASP_Character] [0013,40] Compile of Ue4ASP_Character successful, but with 6 Warning(s) [in 30 ms] (/Game/AnimStarterPack/Ue4ASP_Character.Ue4ASP_Character)
+[2019.05.01-19.45.51:897][481]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Avatar.BP_Avatar
+[2019.05.01-19.45.52:283][481]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0005 seconds. Added 117 classes and 0 folders.
+[2019.05.01-19.45.52:875][481]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/BP_Shield.BP_Shield
+[2019.05.01-19.45.54:675][661]LogSlate: Took 0.000137 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2019.05.01-19.45.59:488][185]LogSlate: Window 'BP_Shield' being destroyed
+[2019.05.01-19.46.05:911][661]Candidate modules for hot reload:
+[2019.05.01-19.46.05:911][661]  GoldenEgg
+[2019.05.01-19.46.05:911][661]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoldenEgg,870 Win64 Development -TargetType=Editor -Project="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" -canskiplink "C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" ]
+[2019.05.01-19.46.05:914][661]Warning: Starting HotReload took  0.0s.
+[2019.05.01-19.46.11:214][297]CompilerResultsLog: New page: Compilation - 01.05.2019 23:46:11
+[2019.05.01-19.46.11:214][297]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
+[2019.05.01-19.46.11:215][297]CompilerResultsLog: Creating makefile for hot reloading GoldenEggEditor (modules to compile have changed)
+[2019.05.01-19.46.11:215][297]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.01-19.46.11:215][297]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-19.46.11:215][297]CompilerResultsLog: Target is up to date
+[2019.05.01-19.46.11:215][297]CompilerResultsLog: Total build time: 5,05 seconds (NoActionsToExecute executor: 0,00 seconds)
+[2019.05.01-19.46.11:216][297]LogMainFrame: MainFrame: Module compiling took 5.307 seconds
+[2019.05.01-19.46.11:445][297]LogContentBrowser: Native class hierarchy populated in 0.0069 seconds. Added 2658 classes and 624 folders.
+[2019.05.01-19.46.11:445][297]Display: HotReload took  5.5s.
+[2019.05.01-19.46.12:831][451]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Smoke)
+[2019.05.01-19.46.13:467][524]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Helena_C (BP_NPC_Helena)
+[2019.05.01-19.46.15:104][713]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-19.46.16:528][882]LogSlate: Took 0.000140 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2019.05.01-19.46.35:287][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap" SILENT=true AUTOSAVING=false KEEPDIRTY=false
+[2019.05.01-19.46.35:483][130]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMapECFBE8A94C054B79378A8781B4F30A91.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap.umap'
+[2019.05.01-19.46.35:512][130]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PracticeMap_BuiltData" FILE="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset" SILENT=true
+[2019.05.01-19.46.35:576][130]LogSavePackage: Moving '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Saved/PracticeMap_BuiltData1431C0EB412E39F31BC29FB116BEC56C.tmp' to '../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/Content/PracticeMap_BuiltData.uasset'
+[2019.05.01-19.46.38:231][433]LogEditorViewport: Clicking on Actor (LMB): BP_Shield_C (BP_Shield)
+[2019.05.01-19.46.39:433][573]Cmd: DELETE
+[2019.05.01-19.46.39:433][573]Cmd: ACTOR DELETE
+[2019.05.01-19.46.39:435][573]LogEditorActor: Actor BP_Shield is referenced by BP_NPC_Helena.
+[2019.05.01-19.46.39:438][573]LogSlate: FSceneViewport::OnFocusLost() reason 2
+[2019.05.01-19.46.45:771][573]LogSlate: Window 'Message' being destroyed
+[2019.05.01-19.46.45:774][573]LogEditorActor: Deleted Actor: BP_Shield_C
+[2019.05.01-19.46.45:803][573]LogEditorActor: Deleted 1 Actors (6.369 secs)
+[2019.05.01-19.46.46:929][708]LogEditorViewport: Clicking on Actor (LMB): Emitter (P_Smoke)
+[2019.05.01-19.46.48:418][849]LogEditorViewport: Clicking on Actor (LMB): BP_NPC_Helena_C (BP_NPC_Helena)
+[2019.05.01-19.46.50:564][ 72]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2019.05.01-19.49.07:870][816]Candidate modules for hot reload:
+[2019.05.01-19.49.07:870][816]  GoldenEgg
+[2019.05.01-19.49.07:870][816]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoldenEgg,9449 Win64 Development -TargetType=Editor -Project="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" -canskiplink "C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" ]
+[2019.05.01-19.49.07:873][816]Warning: Starting HotReload took  0.0s.
+[2019.05.01-19.49.24:370][760]CompilerResultsLog: New page: Compilation - 01.05.2019 23:49:24
+[2019.05.01-19.49.24:370][760]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
+[2019.05.01-19.49.24:370][760]CompilerResultsLog: Creating makefile for hot reloading GoldenEggEditor (source directory changed)
+[2019.05.01-19.49.24:370][760]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.01-19.49.24:370][760]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-19.49.24:371][760]CompilerResultsLog: Parsing headers for GoldenEggEditor
+[2019.05.01-19.49.24:371][760]CompilerResultsLog:   Running UnrealHeaderTool "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\GoldenEgg.uproject" "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\GoldenEggEditor\Development\GoldenEggEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-19.49.24:371][760]CompilerResultsLog: Error: C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Source/GoldenEgg/NPC.h(44)  : Error: Missing '*' in Expected a pointer type
+[2019.05.01-19.49.24:371][760]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'GoldenEggEditor' (platform: Win64, module info: C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\GoldenEggEditor\Development\GoldenEggEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2019.05.01-19.49.24:372][760]LogMainFrame: MainFrame: Module compiling took 16.503 seconds
+[2019.05.01-19.49.24:372][760]Warning: HotReload failed, recompile failed
+[2019.05.01-19.49.30:017][435]LogSlate: Window 'Message Log' being destroyed
+[2019.05.01-19.49.30:019][435]LogSlate: Window 'Message Log' being destroyed
+[2019.05.01-19.49.40:172][662]Candidate modules for hot reload:
+[2019.05.01-19.49.40:172][662]  GoldenEgg
+[2019.05.01-19.49.40:172][662]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoldenEgg,3290 Win64 Development -TargetType=Editor -Project="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" -canskiplink "C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" ]
+[2019.05.01-19.49.40:179][662]Warning: Starting HotReload took  0.0s.
+[2019.05.01-19.49.55:827][813]CompilerResultsLog: New page: Compilation - 01.05.2019 23:49:55
+[2019.05.01-19.49.55:827][813]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
+[2019.05.01-19.49.55:828][813]CompilerResultsLog: Creating makefile for hot reloading GoldenEggEditor (source directory changed)
+[2019.05.01-19.49.55:828][813]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.01-19.49.55:828][813]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-19.49.55:828][813]CompilerResultsLog: Parsing headers for GoldenEggEditor
+[2019.05.01-19.49.55:828][813]CompilerResultsLog:   Running UnrealHeaderTool "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\GoldenEgg.uproject" "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\GoldenEggEditor\Development\GoldenEggEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-19.49.55:829][813]CompilerResultsLog: Reflection code generated for GoldenEggEditor in 8,2021213 seconds
+[2019.05.01-19.49.55:829][813]CompilerResultsLog: Building 4 actions with 4 processes...
+[2019.05.01-19.49.55:829][813]CompilerResultsLog:   [1/4] NPC.gen.cpp
+[2019.05.01-19.49.55:829][813]CompilerResultsLog:   [2/4] NPC.cpp
+[2019.05.01-19.49.55:829][813]CompilerResultsLog:   [3/4] UE4Editor-GoldenEgg-3290.lib
+[2019.05.01-19.49.55:829][813]CompilerResultsLog:      Bibliothek "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-3290.lib" und Objekt "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-3290.exp" werden erstellt.
+[2019.05.01-19.49.55:830][813]CompilerResultsLog:   [4/4] UE4Editor-GoldenEgg-3290.dll
+[2019.05.01-19.49.55:830][813]CompilerResultsLog:      Bibliothek "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-3290.suppressed.lib" und Objekt "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-3290.suppressed.exp" werden erstellt.
+[2019.05.01-19.49.55:830][813]CompilerResultsLog: Total build time: 15,34 seconds (Parallel executor: 2,51 seconds)
+[2019.05.01-19.49.55:830][813]LogMainFrame: MainFrame: Module compiling took 15.660 seconds
+[2019.05.01-19.49.55:905][813]LogContentBrowser: Native class hierarchy updated for 'GoldenEgg' in 0.0004 seconds. Added 6 classes and 2 folders.
+[2019.05.01-19.49.55:909][813]Display: HotReload successful (2 functions remapped  0 scriptstructs remapped)
+[2019.05.01-19.49.56:257][813]LogContentBrowser: Native class hierarchy populated in 0.0073 seconds. Added 2658 classes and 624 folders.
+[2019.05.01-19.49.56:258][813]Display: HotReload took 16.1s.
+[2019.05.01-19.51.24:425][459]Candidate modules for hot reload:
+[2019.05.01-19.51.24:425][459]  GoldenEgg
+[2019.05.01-19.51.24:425][459]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoldenEgg,9703 Win64 Development -TargetType=Editor -Project="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" -canskiplink "C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" ]
+[2019.05.01-19.51.24:428][459]Warning: Starting HotReload took  0.0s.
+[2019.05.01-19.51.40:241][344]CompilerResultsLog: New page: Compilation - 01.05.2019 23:51:40
+[2019.05.01-19.51.40:241][344]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
+[2019.05.01-19.51.40:241][344]CompilerResultsLog: Creating makefile for hot reloading GoldenEggEditor (source directory changed)
+[2019.05.01-19.51.40:242][344]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.01-19.51.40:242][344]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-19.51.40:242][344]CompilerResultsLog: Parsing headers for GoldenEggEditor
+[2019.05.01-19.51.40:242][344]CompilerResultsLog:   Running UnrealHeaderTool "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\GoldenEgg.uproject" "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\GoldenEggEditor\Development\GoldenEggEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-19.51.40:243][344]CompilerResultsLog: Error: C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/Source/GoldenEgg/NPC.h(44)  : Error: Inappropriate '*' on variable of type 'TSubclassOf', cannot have an exposed pointer to this type.
+[2019.05.01-19.51.40:243][344]CompilerResultsLog: Error: UnrealHeaderTool failed for target 'GoldenEggEditor' (platform: Win64, module info: C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\GoldenEggEditor\Development\GoldenEggEditor.uhtmanifest, exit code: OtherCompilationError (5)).
+[2019.05.01-19.51.40:243][344]LogMainFrame: MainFrame: Module compiling took 15.820 seconds
+[2019.05.01-19.51.40:243][344]Warning: HotReload failed, recompile failed
+[2019.05.01-19.51.58:612][588]Candidate modules for hot reload:
+[2019.05.01-19.51.58:612][588]  GoldenEgg
+[2019.05.01-19.51.58:612][588]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoldenEgg,1775 Win64 Development -TargetType=Editor -Project="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" -canskiplink "C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" ]
+[2019.05.01-19.51.58:614][588]Warning: Starting HotReload took  0.0s.
+[2019.05.01-19.52.17:280][810]CompilerResultsLog: New page: Compilation - 01.05.2019 23:52:17
+[2019.05.01-19.52.17:280][810]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
+[2019.05.01-19.52.17:280][810]CompilerResultsLog: Creating makefile for hot reloading GoldenEggEditor (source directory changed)
+[2019.05.01-19.52.17:281][810]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.01-19.52.17:281][810]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-19.52.17:281][810]CompilerResultsLog: Parsing headers for GoldenEggEditor
+[2019.05.01-19.52.17:281][810]CompilerResultsLog:   Running UnrealHeaderTool "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\GoldenEgg.uproject" "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\GoldenEggEditor\Development\GoldenEggEditor.uhtmanifest" -LogCmds="loginit warning, logexit warning, logdatabase error" -Unattended -WarningsAsErrors -installed
+[2019.05.01-19.52.17:282][810]CompilerResultsLog: Reflection code generated for GoldenEggEditor in 10,4749067 seconds
+[2019.05.01-19.52.17:282][810]CompilerResultsLog: Building 5 actions with 4 processes...
+[2019.05.01-19.52.17:282][810]CompilerResultsLog:   [1/5] GoldenEgg.init.gen.cpp
+[2019.05.01-19.52.17:282][810]CompilerResultsLog:   [2/5] NPC.gen.cpp
+[2019.05.01-19.52.17:282][810]CompilerResultsLog:   [3/5] NPC.cpp
+[2019.05.01-19.52.17:282][810]CompilerResultsLog:    C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Source\GoldenEgg\NPC.cpp(22) : error C2664: "void AAvatar::PickUp(APickupItem *)" : Konvertierung von Argument 1 von "TSubclassOf<APickupItem>" in "APickupItem *" nicht m?glich
+[2019.05.01-19.52.17:283][810]CompilerResultsLog:   C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Source\GoldenEgg\NPC.cpp(22): note: Kein benutzerdefinierter Konvertierungsoperator verf?gbar, der diese Konvertierung durchf?hren kann, oder der Operator kann nicht aufgerufen werden
+[2019.05.01-19.52.17:283][810]CompilerResultsLog: ERROR: UBT ERROR: Failed to produce item: C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Binaries\Win64\UE4Editor-GoldenEgg-1775.dll
+[2019.05.01-19.52.17:283][810]CompilerResultsLog:        (see ../Programs/UnrealBuildTool/Log.txt for full exception trace)
+[2019.05.01-19.52.17:284][810]CompilerResultsLog: Total build time: 18,34 seconds (Parallel executor: 0,00 seconds)
+[2019.05.01-19.52.17:284][810]LogMainFrame: MainFrame: Module compiling took 18.674 seconds
+[2019.05.01-19.52.17:284][810]Warning: HotReload failed, recompile failed
+[2019.05.01-19.53.04:299][377]Candidate modules for hot reload:
+[2019.05.01-19.53.04:300][377]  GoldenEgg
+[2019.05.01-19.53.04:300][377]Launching UnrealBuildTool... [C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/DotNET/UnrealBuildTool.exe  -ModuleWithSuffix=GoldenEgg,9259 Win64 Development -TargetType=Editor -Project="../../../../../../Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" -canskiplink "C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject" ]
+[2019.05.01-19.53.04:302][377]Warning: Starting HotReload took  0.0s.
+[2019.05.01-19.53.12:671][376]CompilerResultsLog: New page: Compilation - 01.05.2019 23:53:12
+[2019.05.01-19.53.12:671][376]CompilerResultsLog: Using 'git status' to determine working set for adaptive non-unity build (C:\Dev\Building Games with Unreal Engine 4).
+[2019.05.01-19.53.12:671][376]CompilerResultsLog: Creating makefile for hot reloading GoldenEggEditor (source directory changed)
+[2019.05.01-19.53.12:671][376]CompilerResultsLog: Compiling game modules for hot reload
+[2019.05.01-19.53.12:671][376]CompilerResultsLog: Using Visual Studio 2017 14.20.27508 toolchain (C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.20.27508) and Windows 10.0.16299.0 SDK (C:\Program Files (x86)\Windows Kits\10).
+[2019.05.01-19.53.12:671][376]CompilerResultsLog: Building 3 actions with 4 processes...
+[2019.05.01-19.53.12:672][376]CompilerResultsLog:   [1/3] NPC.cpp
+[2019.05.01-19.53.12:672][376]CompilerResultsLog:   [2/3] UE4Editor-GoldenEgg-9259.lib
+[2019.05.01-19.53.12:672][376]CompilerResultsLog:      Bibliothek "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-9259.lib" und Objekt "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-9259.exp" werden erstellt.
+[2019.05.01-19.53.12:672][376]CompilerResultsLog:   [3/3] UE4Editor-GoldenEgg-9259.dll
+[2019.05.01-19.53.12:672][376]CompilerResultsLog:      Bibliothek "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-9259.suppressed.lib" und Objekt "C:\Dev\Building Games with Unreal Engine 4\GoldenEgg\Intermediate\Build\Win64\UE4Editor\Development\GoldenEgg\UE4Editor-GoldenEgg-9259.suppressed.exp" werden erstellt.
+[2019.05.01-19.53.12:673][376]CompilerResultsLog: Total build time: 8,11 seconds (Parallel executor: 3,28 seconds)
+[2019.05.01-19.53.12:673][376]LogMainFrame: MainFrame: Module compiling took 8.375 seconds
+[2019.05.01-19.53.12:745][376]LogClass: Could not find existing class NPC in package /Script/GoldenEgg for HotReload, assuming new class
+[2019.05.01-19.53.12:745][376]LogClass: Function Prox is new.
+[2019.05.01-19.53.12:757][376]LogHotReload: Re-instancing NPC after hot-reload.
+[2019.05.01-19.53.13:237][376]LogContentBrowser: Native class hierarchy updated for 'GoldenEgg' in 0.0003 seconds. Added 6 classes and 2 folders.
+[2019.05.01-19.53.13:240][376]Display: HotReload successful (1 functions remapped  0 scriptstructs remapped)
+[2019.05.01-19.53.13:512][376]LogContentBrowser: Native class hierarchy populated in 0.0071 seconds. Added 2658 classes and 624 folders.
+[2019.05.01-19.53.13:512][376]Display: HotReload took  9.2s.
+[2019.05.01-19.53.14:723][507]LogTemp: Repeating last play command: Selected Viewport
+[2019.05.01-19.53.14:743][507]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'
+[2019.05.01-19.53.14:744][507]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2019.05.01-19.53.14:744][507]PIE: New page: PIE session: PracticeMap (01.05.2019 23:53:14)
+[2019.05.01-19.53.14:756][507]LogPlayLevel: Creating play world package: /Game/UEDPIE_0_PracticeMap
+[2019.05.01-19.53.14:758][507]LogPlayLevel: PIE: StaticDuplicateObject took: (0.002049s)
+[2019.05.01-19.53.14:759][507]LogAIModule: Creating AISystem for world PracticeMap
+[2019.05.01-19.53.14:759][507]LogPlayLevel: PIE: World Init took: (0.000748s)
+[2019.05.01-19.53.14:759][507]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PracticeMap.PracticeMap to /Game/UEDPIE_0_PracticeMap.PracticeMap (0.003352s)
+[2019.05.01-19.53.14:818][507]LogInit: XAudio2 using 'Kopfhörer (Corsair VOID RGB USB Gaming Headset)' : 6 channels at 48 kHz using 16 bits per sample (channel mask 0x3f)
+[2019.05.01-19.53.14:827][507]LogInit: FAudioDevice initialized.
+[2019.05.01-19.53.14:881][507]LogLoad: Game class is 'BP_GameModeGoldenEgg_C'
+[2019.05.01-19.53.14:883][507]LogWorld: Bringing World /Game/UEDPIE_0_PracticeMap.PracticeMap up for play (max tick rate 0) at 2019.05.01-21.53.14
+[2019.05.01-19.53.14:884][507]LogWorld: Bringing up level for play took: 0.002098
+[2019.05.01-19.53.14:926][507]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
+[2019.05.01-19.53.14:928][507]PIE: Play in editor start time for /Game/UEDPIE_0_PracticeMap 0,313
+[2019.05.01-19.53.14:928][507]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/PracticeMap.PracticeMap:PersistentLevel' has LevelScriptBlueprint '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap' with GeneratedClass '/Game/PracticeMap.PracticeMap_C' with ClassGeneratedBy '/Game/PracticeMap.PracticeMap:PersistentLevel.PracticeMap'

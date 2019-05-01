@@ -21,6 +21,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 	ENGINE_API UScriptStruct* Z_Construct_UScriptStruct_FHitResult();
 	ENGINE_API UClass* Z_Construct_UClass_UPrimitiveComponent_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_AActor_NoRegister();
+	GOLDENEGG_API UClass* Z_Construct_UClass_APickupItem_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_UTexture2D_NoRegister();
 	ENGINE_API UClass* Z_Construct_UClass_USphereComponent_NoRegister();
 // End Cross Module References
@@ -129,6 +130,15 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 		static const UE4CodeGen_Private::FMetaDataPairParam Class_MetaDataParams[];
 #endif
 #if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_Item_MetaData[];
+#endif
+		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_Item;
+#if WITH_METADATA
+		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_HasItem_MetaData[];
+#endif
+		static void NewProp_HasItem_SetBit(void* Obj);
+		static const UE4CodeGen_Private::FBoolPropertyParams NewProp_HasItem;
+#if WITH_METADATA
 		static const UE4CodeGen_Private::FMetaDataPairParam NewProp_NpcFace_MetaData[];
 #endif
 		static const UE4CodeGen_Private::FObjectPropertyParams NewProp_NpcFace;
@@ -164,6 +174,24 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 	};
 #endif
 #if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Statics::NewProp_Item_MetaData[] = {
+		{ "Category", "NPCItem" },
+		{ "ModuleRelativePath", "NPC.h" },
+	};
+#endif
+	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Statics::NewProp_Item = { UE4CodeGen_Private::EPropertyClass::Object, "Item", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, STRUCT_OFFSET(ANPC, Item), Z_Construct_UClass_APickupItem_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Statics::NewProp_Item_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANPC_Statics::NewProp_Item_MetaData)) };
+#if WITH_METADATA
+	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Statics::NewProp_HasItem_MetaData[] = {
+		{ "Category", "NPCItem" },
+		{ "ModuleRelativePath", "NPC.h" },
+	};
+#endif
+	void Z_Construct_UClass_ANPC_Statics::NewProp_HasItem_SetBit(void* Obj)
+	{
+		((ANPC*)Obj)->HasItem = 1;
+	}
+	const UE4CodeGen_Private::FBoolPropertyParams Z_Construct_UClass_ANPC_Statics::NewProp_HasItem = { UE4CodeGen_Private::EPropertyClass::Bool, "HasItem", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x0010000000000005, 1, nullptr, sizeof(bool), UE4CodeGen_Private::ENativeBool::Native, sizeof(ANPC), &Z_Construct_UClass_ANPC_Statics::NewProp_HasItem_SetBit, METADATA_PARAMS(Z_Construct_UClass_ANPC_Statics::NewProp_HasItem_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANPC_Statics::NewProp_HasItem_MetaData)) };
+#if WITH_METADATA
 	const UE4CodeGen_Private::FMetaDataPairParam Z_Construct_UClass_ANPC_Statics::NewProp_NpcFace_MetaData[] = {
 		{ "Category", "NPCMessage" },
 		{ "ModuleRelativePath", "NPC.h" },
@@ -195,6 +223,8 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 #endif
 	const UE4CodeGen_Private::FObjectPropertyParams Z_Construct_UClass_ANPC_Statics::NewProp_ProxSphere = { UE4CodeGen_Private::EPropertyClass::Object, "ProxSphere", RF_Public|RF_Transient|RF_MarkAsNative, (EPropertyFlags)0x00100000000a001d, 1, nullptr, STRUCT_OFFSET(ANPC, ProxSphere), Z_Construct_UClass_USphereComponent_NoRegister, METADATA_PARAMS(Z_Construct_UClass_ANPC_Statics::NewProp_ProxSphere_MetaData, ARRAY_COUNT(Z_Construct_UClass_ANPC_Statics::NewProp_ProxSphere_MetaData)) };
 	const UE4CodeGen_Private::FPropertyParamsBase* const Z_Construct_UClass_ANPC_Statics::PropPointers[] = {
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Statics::NewProp_Item,
+		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Statics::NewProp_HasItem,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Statics::NewProp_NpcFace,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Statics::NewProp_NpcName,
 		(const UE4CodeGen_Private::FPropertyParamsBase*)&Z_Construct_UClass_ANPC_Statics::NewProp_NpcMessage,
@@ -223,7 +253,7 @@ void EmptyLinkFunctionForGeneratedCodeNPC() {}
 		}
 		return OuterClass;
 	}
-	IMPLEMENT_CLASS(ANPC, 4287837893);
+	IMPLEMENT_CLASS(ANPC, 3064029160);
 	static FCompiledInDefer Z_CompiledInDefer_UClass_ANPC(Z_Construct_UClass_ANPC, &ANPC::StaticClass, TEXT("/Script/GoldenEgg"), TEXT("ANPC"), false, nullptr, nullptr, nullptr);
 	DEFINE_VTABLE_PTR_HELPER_CTOR(ANPC);
 PRAGMA_ENABLE_DEPRECATION_WARNINGS

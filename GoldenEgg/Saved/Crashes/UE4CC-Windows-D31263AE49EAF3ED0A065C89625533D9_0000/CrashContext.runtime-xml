@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FGenericCrashContext>
+	<RuntimeProperties>
+		<CrashVersion>3</CrashVersion>
+		<CrashGUID>UE4CC-Windows-D31263AE49EAF3ED0A065C89625533D9_0000</CrashGUID>
+		<ProcessId>10584</ProcessId>
+		<IsInternalBuild>false</IsInternalBuild>
+		<IsPerforceBuild>false</IsPerforceBuild>
+		<IsSourceDistribution>false</IsSourceDistribution>
+		<IsEnsure>true</IsEnsure>
+		<IsAssert>false</IsAssert>
+		<CrashType>Ensure</CrashType>
+		<SecondsSinceStart>0</SecondsSinceStart>
+		<GameName>UE4-GoldenEgg</GameName>
+		<ExecutableName>UE4Editor</ExecutableName>
+		<BuildConfiguration>Development</BuildConfiguration>
+		<GameSessionID />
+		<Symbols>**UE4*Release-4.21-CL-4753647-Win64-Development</Symbols>
+		<PlatformName>Windows</PlatformName>
+		<PlatformNameIni>Windows</PlatformNameIni>
+		<EngineMode>Editor</EngineMode>
+		<EngineModeEx>Unset</EngineModeEx>
+		<DeploymentName />
+		<EngineVersion>4.21.2-4753647+++UE4+Release-4.21</EngineVersion>
+		<CommandLine>&quot;C:/Dev/Building Games with Unreal Engine 4/GoldenEgg/GoldenEgg.uproject&quot;</CommandLine>
+		<LanguageLCID>1031</LanguageLCID>
+		<AppDefaultLocale>de-DE</AppDefaultLocale>
+		<BuildVersion>++UE4+Release-4.21-CL-4753647</BuildVersion>
+		<IsUE4Release>true</IsUE4Release>
+		<UserName>Thomas</UserName>
+		<BaseDir>C:/Program Files/Epic Games/UE_4.21/Engine/Binaries/Win64/</BaseDir>
+		<RootDir>C:/Program Files/Epic Games/UE_4.21/</RootDir>
+		<MachineId>4A8D954C498143B70AA7729B3C48B3C0</MachineId>
+		<LoginId>4a8d954c498143b70aa7729b3c48b3c0</LoginId>
+		<EpicAccountId>df4c372e53e149b48d5baf51375e84fd</EpicAccountId>
+		<CallStack />
+		<PCallStack>UE4Editor-Engine 0x0000000033360000 + 6d6a99 UE4Editor-GoldenEgg-4401 0x0000000022240000 + 8cdb UE4Editor-CoreUObject 0x0000000057970000 + 148973 UE4Editor-CoreUObject 0x0000000057970000 + 4120a8 UE4Editor-CoreUObject 0x0000000057970000 + 3f819f UE4Editor-CoreUObject 0x0000000057970000 + 14e977 UE4Editor-Core 0x0000000037cd0000 + 11ca7e UE4Editor-Core 0x0000000037cd0000 + 2d9e66 UE4Editor-Projects 0x0000000074e30000 + 1cfec UE4Editor-Projects 0x0000000074e30000 + 1d2d4 UE4Editor 0x00000000e89c0000 + 183a1 UE4Editor 0x00000000e89c0000 + 1dc6b UE4Editor 0x00000000e89c0000 + 15783 UE4Editor 0x00000000e89c0000 + 159ea UE4Editor 0x00000000e89c0000 + 248da UE4Editor 0x00000000e89c0000 + 2659a KERNEL32 0x000000008e5f0000 + 14034 ntdll 0x000000008f3a0000 + 73691</PCallStack>
+		<SourceContext />
+		<UserDescription>Sent in the unattended mode</UserDescription>
+		<UserActivityHint />
+		<ErrorMessage>Ensure condition failed: AttachmentRules.LocationRule == EAttachmentRule::KeepRelative &amp;&amp; AttachmentRules.RotationRule == EAttachmentRule::KeepRelative &amp;&amp; AttachmentRules.ScaleRule == EAttachmentRule::KeepRelative [File:D:\Build\++UE4\Sync\Engine\Source\Runtime\Engine\Private\Components\SceneComponent.cpp] [Line: 1772] AttachToComponent when called from a constructor is only setting up attachment and will always be treated as KeepRelative. Consider calling SetupAttachment directly instead.</ErrorMessage>
+		<CrashDumpMode>0</CrashDumpMode>
+		<CrashReporterMessage />
+		<Misc.NumberOfCores>4</Misc.NumberOfCores>
+		<Misc.NumberOfCoresIncludingHyperthreads>4</Misc.NumberOfCoresIncludingHyperthreads>
+		<Misc.Is64bitOperatingSystem>1</Misc.Is64bitOperatingSystem>
+		<Misc.CPUVendor>GenuineIntel</Misc.CPUVendor>
+		<Misc.CPUBrand>Intel(R) Core(TM) i5-6600K CPU @ 3.50GHz</Misc.CPUBrand>
+		<Misc.PrimaryGPUBrand>NVIDIA GeForce GTX 1060 6GB</Misc.PrimaryGPUBrand>
+		<Misc.OSVersionMajor>Windows 10</Misc.OSVersionMajor>
+		<Misc.OSVersionMinor />
+		<GameStateName />
+		<MemoryStats.TotalPhysical>17091121152</MemoryStats.TotalPhysical>
+		<MemoryStats.TotalVirtual>140737488224256</MemoryStats.TotalVirtual>
+		<MemoryStats.PageSize>4096</MemoryStats.PageSize>
+		<MemoryStats.TotalPhysicalGB>16</MemoryStats.TotalPhysicalGB>
+		<MemoryStats.AvailablePhysical>9426751488</MemoryStats.AvailablePhysical>
+		<MemoryStats.AvailableVirtual>140731765084160</MemoryStats.AvailableVirtual>
+		<MemoryStats.UsedPhysical>602394624</MemoryStats.UsedPhysical>
+		<MemoryStats.PeakUsedPhysical>603852800</MemoryStats.PeakUsedPhysical>
+		<MemoryStats.UsedVirtual>627703808</MemoryStats.UsedVirtual>
+		<MemoryStats.PeakUsedVirtual>628604928</MemoryStats.PeakUsedVirtual>
+		<MemoryStats.bIsOOM>0</MemoryStats.bIsOOM>
+		<MemoryStats.OOMAllocationSize>0</MemoryStats.OOMAllocationSize>
+		<MemoryStats.OOMAllocationAlignment>0</MemoryStats.OOMAllocationAlignment>
+		<TimeOfCrash>636923367444150000</TimeOfCrash>
+		<bAllowToBeContacted>1</bAllowToBeContacted>
+		<PlatformFullName>Win64 [Windows 10  64b]</PlatformFullName>
+		<CrashReportClientVersion>1.0</CrashReportClientVersion>
+	</RuntimeProperties>
+	<PlatformProperties>
+		<PlatformIsRunningWindows>1</PlatformIsRunningWindows>
+		<PlatformCallbackResult>0</PlatformCallbackResult>
+	</PlatformProperties>
+</FGenericCrashContext>
