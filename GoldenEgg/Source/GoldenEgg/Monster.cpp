@@ -36,6 +36,24 @@ void AMonster::Tick(float DeltaTime)
 {
 	Super::Tick(DeltaTime);
 
+	// Basic intelligence: Move the monster towards the player character
+	AAvatar* avatar = Cast<AAvatar>(UGameplayStatics::GetPlayerPawn(GetWorld(), 0));
+
+	if (!avatar)
+	{
+		return;
+	}
+
+	FVector toPlayer = avatar->GetActorLocation();
+	//toPlayer.Normalize();	// Reduce to unit vector
+
+	// Move the monster towards the player
+	AddMovementInput(toPlayer, Speed * DeltaTime);
+	UE_LOG(LogTemp, Warning, TEXT("toPlayer: %f, %f, %f"), toPlayer.X, toPlayer.Y, toPlayer.Z);
+
+	// Rotate the monster towards the player
+	FRotator toPlayerRotation = FRotator(toPlayer.X, toPlayer.Y, 0.0f);
+	RootComponent->SetWorldRotation(toPlayerRotation);
 }
 
 // Called to bind functionality to input
